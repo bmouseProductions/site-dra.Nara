@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: rewant;
+    src: url(./assets/fonts/REWANT.OTF);
+}
+
+html, body {
+    background-color: #f5f6fa;
+}
+
+.font-rewant{
+    font-family: rewant;
+}
+
+/*ESTILIZAÇÃO SCROLL-BAR */
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+    border-radius: 8px;
+    background: #797979;
+}
+::-webkit-scrollbar-thumb {
+    background: #663210;
+    border-radius: 8px;
+}
+
+.background-sentir-pele{
+    background-color: #663210;
+    background-image: url(./assets//images/N-background.svg);
+    background-size: 100%;
+    background-position: left bottom;
+    background-repeat: no-repeat;
+}
+
+@media screen and (min-width:768px) {
+    .background-sentir-pele{
+        background-color: #663210;
+        background-image: url(./assets//images/N-background.svg);
+        background-size: 80%;
+        background-position: right bottom;
+        background-repeat: no-repeat;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .background-sentir-pele{
+        background-color: #663210;
+        background-image: url(./assets//images/N-background.svg);
+        background-size: 50%;
+        background-position: right bottom;
+        background-repeat: no-repeat;
+    }
+}
+
+.background-video{
+    background-color: #663210;
+    background-image: url(./assets//images/background-naraVieira.svg);
+    background-size: 150%;
+    background-position: left bottom;
+    background-repeat: no-repeat;
+}
+
+.swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    background-color: #e2d7cf;
+    opacity: 1;
+}
+
+.swiper-pagination-bullet-active{
+    background-color: #663210;
+}
