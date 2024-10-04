@@ -30,11 +30,11 @@ export default function BackToTop() {
       className={`left-4 bottom-5 md:bottom-5 z-40 ${isSticky ? STICKY_CLASS : HIDDING_CLASS}`}
     >
       <button
-        className='flex justify-center items-center rounded-full py-2 px-2 bg-[#186a30] shadow-[0px_0px_5px_#f97316]'
+        className='flex justify-center items-center rounded-full py-2 px-2 bg-[#fff] shadow-[0px_0px_5px_#663210]'
         onClick={handleBackToTop}
       >
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
-          <path strokeLinecap="round" className='text-white' strokeLinejoin="round" d="M4.5 10.5 12 3m0 0 7.5 7.5M12 3v18" />
+          <path strokeLinecap="round" className='text-[#663210] ' strokeLinejoin="round" d="M4.5 10.5 12 3m0 0 7.5 7.5M12 3v18" />
         </svg>
       </button>
     </div>
