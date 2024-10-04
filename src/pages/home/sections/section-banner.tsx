@@ -3,7 +3,7 @@
 
 import logo from '~/logo-branca.svg';
 import bannerDesktop from '@/assets/images/banner-desktop.svg';
-import bannerMobile from '@/assets/images/banner-mobile.svg';
+import bannerMobile from '@/assets/images/banner-mobile.webp';
 
 export default function SectionBanner() {
 
