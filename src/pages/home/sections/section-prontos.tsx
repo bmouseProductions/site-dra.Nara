@@ -19,7 +19,7 @@ export default function SectionProntos(){
                         <a 
                             href="https://www.instagram.com/dranaravieira/" 
                             target="_blank"
-                            className='text-lg flex gap-3 underline text-blue-600'
+                            className='text-lg flex gap-3'
                         >
                             <img 
                                 src={insta} 
@@ -33,7 +33,7 @@ export default function SectionProntos(){
                         <a 
                             href="https://www.facebook.com/dra.naravieira/?locale=pt_BR" 
                             target="_blank"
-                            className='text-lg flex gap-3 underline text-blue-600'
+                            className='text-lg flex gap-3'
                         >
                             <img 
                                 src={facebook} 
@@ -47,7 +47,7 @@ export default function SectionProntos(){
                         <a 
                             href="https://www.youtube.com/@Dra.NaraVieira" 
                             target="_blank"
-                            className='text-lg flex gap-3 underline text-blue-600'
+                            className='text-lg flex gap-3'
                         >
                             <img 
                                 src={youtube} 
@@ -61,7 +61,7 @@ export default function SectionProntos(){
                         <a 
                             href="https://www.linkedin.com/in/dranaravieira" 
                             target="_blank"
-                            className='text-lg flex gap-3 underline text-blue-600'
+                            className='text-lg flex gap-3'
                         >
                             <img 
                                 src={linkedin} 
