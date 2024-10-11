@@ -1,15 +1,8 @@
-import biometriaImage from '../assets/images/procedimentos/catarata.webp'
-import capimetriaImage from '../assets/images/procedimentos/cornea.webp'
-import curvaImage from '../assets/images/procedimentos/glaucoma.webp'
-import goniocopiaImage from '../assets/images/procedimentos/lentes-contato.webp'
-import retinaImage from '../assets/images/procedimentos/retina.webp'
-import microscopiaImage from '../assets/images/procedimentos/cornea.webp'
-import paquimetriaImage from '../assets/images/procedimentos/glaucoma.webp'
-import retinografiaImage from '../assets/images/procedimentos/cornea.webp'
-import esterospsiaImage from '../assets/images/procedimentos/trauma-ocular.webp'
-import tomografiaImage from '../assets/images/procedimentos/glaucoma.webp'
-import tonometriaImage from '../assets/images/procedimentos/lentes-contato.webp'
-import topografiaImage from '../assets/images/procedimentos/plastica-ocular.webp'
+import bioestimuladores from '../assets/images/procedimentos/bioestimuladores.webp'
+import mmpCapilar from '../assets/images/procedimentos/mmpCapilar.webp'
+import peeling from '../assets/images/procedimentos/peeling.webp'
+import toxina from '../assets/images/procedimentos/toxina.webp'
+import ultraformer from '../assets/images/procedimentos/ultraformer.webp'
 
 interface Procedimentos {
     nome: string;
@@ -34,8 +27,8 @@ interface ProcedimentosOftalmologicos {
 export const procedimentos:ProcedimentosOftalmologicos = {
     "destaque": [
         {
-            nome: "Acne",
-            imagem: biometriaImage,
+            nome: "Bioestimuladores",
+            imagem: bioestimuladores,
             resumo: `A Acne é uma condição da pele que ocorre quando os folículos pilosos ficam obstruídos por sebo e células mortas, 
             sendo colonizados por bactérias e gerando uma inflamação local. As principais áreas atingidas pela doença são o rosto, 
             peito, ombros, costas e braços. A Acne tem como principais causadores a hereditariedade e os fatores hormonais, podendo 
@@ -63,8 +56,8 @@ export const procedimentos:ProcedimentosOftalmologicos = {
         },
 
         {
-            nome: "Câncer de Pele",
-            imagem: capimetriaImage,
+            nome: "MMP Capilar",
+            imagem: mmpCapilar,
             resumo: `O Câncer de Pele ocorre quando há a transformação e o aumento descontrolado das células cutâneas, principalmente devido à exposição excessiva aos raios ultravioletas do sol. Entre os tipos, temos os carcinomas e melanomas.`,
             descricao: `
             <h3 className="font-semibold">O que é:</h3>
@@ -79,8 +72,8 @@ export const procedimentos:ProcedimentosOftalmologicos = {
         },
 
         {
-            nome: "Dermatite Atópica",
-            imagem: curvaImage,
+            nome: "Pelling Facial",
+            imagem: peeling,
             resumo: `A Dermatite Atópica é uma doença inflamatória crônica caracterizada por pele seca e lesões avermelhadas que coçam. Suas causas estão relacionadas a fatores genéticos, imunológicos e ambientais.`,
             descricao: `
             <h3 className="font-semibold">O que é:</h3>
@@ -95,8 +88,8 @@ export const procedimentos:ProcedimentosOftalmologicos = {
         },
         
         {
-            nome: "Dermatite de Contato",
-            imagem: goniocopiaImage,
+            nome: "Toxina",
+            imagem: toxina,
             resumo: "É uma reação inflamatória na pele decorrente da exposição a um agente que causa irritação ou alergia, podendo ser irritativa ou alérgica.",
             descricao: 
             `<h3 className="font-semibold">O que é:</h3>
@@ -110,8 +103,8 @@ export const procedimentos:ProcedimentosOftalmologicos = {
         },
 
         {
-            nome: "Dermatite Seborreica",
-            imagem: retinaImage,
+            nome: "Ultraformer",
+            imagem: ultraformer,
             resumo: `A Dermatite Seborreica é uma condição crônica e não contagiosa que causa descamação e vermelhidão em áreas como o couro cabeludo, rosto e tronco. A hereditariedade, estresse e alterações climáticas podem agravar a condição.`,
             descricao: `
             <h3 className="font-semibold">O que é:</h3>
@@ -123,114 +116,6 @@ export const procedimentos:ProcedimentosOftalmologicos = {
             <h3 className="font-semibold">Tratamento:</h3>
             <p>O tratamento inclui a lavagem frequente do couro cabeludo, uso de xampus especiais e cremes/pomadas indicados pelo dermatologista. Evitar produtos capilares como sprays e géis também ajuda a controlar os sintomas.</p>
             `,
-        },
-
-        {
-            nome: "Disidrose",
-            imagem: microscopiaImage,
-            resumo: `A Disidrose é uma dermatite que se caracteriza por pequenas bolhas pruriginosas nas palmas das mãos e plantas dos pés. Suas causas são desconhecidas, mas está associada a fatores alérgicos e emocionais.`,
-            descricao: `
-            <h3 className="font-semibold">O que é:</h3>
-            <p>A Disidrose é um tipo de dermatite caracterizada por pequenas bolhas pruriginosas nas palmas das mãos e plantas dos pés. Suas causas são desconhecidas, mas a condição pode estar associada a alérgenos, estresse físico ou psicológico e lavagem frequente das mãos.</p>
-            <br />
-            <h3 className="font-semibold">Em quem ocorre:</h3>
-            <p>A condição pode afetar qualquer pessoa, mas é mais comum em indivíduos que suam excessivamente ou são mais ansiosos.</p>
-            <br />
-            <h3 className="font-semibold">Tratamento:</h3>
-            <p>O tratamento geralmente é feito com medicações tópicas, e em casos mais graves, podem ser prescritos medicamentos sistêmicos. Evitar fatores que desencadeiam as crises é fundamental para o controle da doença.</p>
-            `,
-        },
-
-        {
-            nome: "DSTs (Doenças Sexualmente Transmissíveis)",
-            imagem: paquimetriaImage,
-            resumo: `As Doenças Sexualmente Transmissíveis (DSTs) são doenças que afetam a pele e mucosas, transmitidas através do contato sexual desprotegido. Entre elas estão o herpes genital, HPV, sífilis e outras.`,
-            descricao: `
-            <h3 className="font-semibold">O que é:</h3>
-            <p>As Doenças Sexualmente Transmissíveis (DSTs) são doenças transmitidas pelo contato sexual desprotegido, afetando a pele e mucosas. Exemplos de DSTs com manifestação cutânea incluem herpes genital, HPV, sífilis e clamídia.</p>
-            <br />
-            <h3 className="font-semibold">Em quem ocorre:</h3>
-            <p>As DSTs ocorrem em indivíduos que têm contato sexual desprotegido com portadores dessas doenças.</p>
-            <br />
-            <h3 className="font-semibold">Tratamento:</h3>
-            <p>Os tratamentos são específicos para cada doença, envolvendo desde medicamentos antivirais até antibióticos, dependendo da DST em questão.</p>
-            `,
-        },
-
-        {
-            nome: "Hiperidrose",
-            imagem: retinografiaImage,
-            resumo: `A Hiperidrose é caracterizada pelo suor excessivo em áreas como axilas, palmas das mãos e solas dos pés. Suas causas são relacionadas a fatores emocionais e genéticos.`,
-            descricao: `
-            <h3 className="font-semibold">O que é:</h3>
-            <p>A Hiperidrose é uma condição caracterizada pelo suor excessivo em áreas como as axilas, palmas das mãos e solas dos pés. Suas causas estão relacionadas a fatores emocionais, genéticos ou a outras doenças subjacentes.</p>
-            <br />
-            <h3 className="font-semibold">Em quem ocorre:</h3>
-            <p>A Hiperidrose pode afetar tanto homens quanto mulheres em diferentes idades.</p>
-            <br />
-            <h3 className="font-semibold">Tratamento:</h3>
-            <p>As opções de tratamento incluem o uso de antitranspirantes fortes, medicamentos para inibir as glândulas sudoríparas e aplicações de toxina botulínica. Em casos mais graves, a simpatectomia pode ser indicada.</p>
-            `,
-        },
-        
-        {
-            nome: "Melanoma",
-            imagem: esterospsiaImage,
-            resumo: "O melanoma é o tipo mais agressivo de câncer da pele, mais raro e letal que os carcinomas, pois pode se espalhar para outros órgãos.",
-            descricao: 
-            `<h3 className="font-semibold">O que é:</h3>
-            <p>O melanoma é o tipo mais agressivo de câncer da pele. Ele é mais raro e letal que os carcinomas, pois pode se espalhar para outros órgãos. Toda pinta preta ou castanha que muda de cor e textura, aumenta de tamanho ou torna-se irregular nas bordas é suspeita de melanoma.</p>
-            <br />
-            <h3 className="font-semibold">Em quem ocorre:</h3>
-            <p>A doença é mais comum em pessoas com pele, cabelos e olhos claros, nas ruivas, nas que têm sardas ou que tiveram muitas queimaduras solares durante os primeiros 20 anos de vida, e naquelas com histórico familiar da doença.</p>
-            <br />
-            <h3 className="font-semibold">Tratamento:</h3>
-            <p>A retirada cirúrgica da lesão é necessária, sem margens de segurança. Depois do exame anatomopatológico, será definido o tratamento complementar, inclusive a ampliação das margens cirúrgicas. Conhecer bem a pele e saber em quais regiões existem pintas e sinais faz toda a diferença na hora de detectar qualquer irregularidade.</p>` 
-        },
-
-        {
-            nome: "Melasma",
-            imagem: tomografiaImage,
-            resumo: "São manchas escuras na pele do rosto e, em casos mais raros, podem acometer também braços, pescoço e colo. Não há uma causa definida, mas muitas vezes está relacionada ao uso de anticoncepcionais femininos, à gravidez e à exposição solar. A predisposição genética também influencia no surgimento desta condição.",
-            descricao: 
-            `<h3 className="font-semibold">O que é:</h3>
-            <p>O melasma são manchas escuras na pele do rosto e, em casos mais raros, pode acometer também braços, pescoço e colo. Não há uma causa definida, mas muitas vezes está relacionado ao uso de anticoncepcionais femininos, à gravidez e, principalmente, à exposição solar. A predisposição genética também influencia no surgimento desta condição. É comum uma melhora após a menopausa.</p>
-            <br />
-            <h3 className="font-semibold">Em quem ocorre:</h3>
-            <p>Afeta mais frequentemente as mulheres, podendo ser visto também em homens.</p>
-            <br />
-            <h3 className="font-semibold">Tratamento:</h3>
-            <p>As terapias disponíveis incluem o uso de medicamentos tópicos e procedimentos para o clareamento, como peelings químicos, microagulhamento e microinjeção de medicamentos. É importante que o tratamento do melasma seja um conjunto de medidas para clarear, estabilizar e impedir que o pigmento volte. Não se iluda com tratamentos milagrosos; o melasma é sempre de difícil tratamento, sendo fundamental o uso de clareadores específicos para a manutenção dos resultados.</p>` 
-        },
-        
-        {
-            nome: "Micose",
-            imagem: tonometriaImage,
-            resumo: "A micose é uma infecção fúngica que atinge a pele, as unhas e os cabelos. A doença é mais comum em épocas de muito calor e umidade, especialmente em ambientes que propiciam a proliferação dos fungos.",
-            descricao: 
-            `<h3 className="font-semibold">O que é:</h3>
-            <p>A micose é uma infecção fúngica que atinge a pele, as unhas e os cabelos. A doença é mais comum em épocas de muito calor e umidade, especialmente em ambientes que propiciam a proliferação dos fungos.</p>
-            <br />
-            <h3 className="font-semibold">Em quem ocorre:</h3>
-            <p>Acomete tanto adultos quanto crianças.</p>
-            <br />
-            <h3 className="font-semibold">Tratamento:</h3>
-            <p>O tratamento depende do tipo e do local afetado. Podem ser indicados medicamentos tópicos ou orais específicos. Para prevenir a condição, hábitos como enxugar bem o corpo após o banho, evitar roupas molhadas por muito tempo e não andar descalço em pisos úmidos são importantes.</p>` 
-        },
-        
-        {
-            nome: "Psoríase",
-            imagem: topografiaImage,
-            resumo: "Trata-se de uma doença crônica e não contagiosa da pele, caracterizada pela presença de placas avermelhadas e descamações, principalmente nos cotovelos, joelhos, palmas, plantas e couro cabeludo.",
-            descricao: 
-            `<h3 className="font-semibold">O que é:</h3>
-            <p>A psoríase é uma doença crônica e não contagiosa da pele, caracterizada pela presença de placas avermelhadas e descamações, principalmente nos cotovelos, joelhos, palmas, plantas e couro cabeludo. Tem evolução recorrente e acredita-se que a doença esteja relacionada com fatores genéticos, imunológicos e emocionais, além da variação climática e do uso de certos medicamentos.</p>
-            <br />
-            <h3 className="font-semibold">Em quem ocorre:</h3>
-            <p>Acredita-se que 1% da população mundial tenha psoríase, acometendo ambos os sexos.</p>
-            <br />
-            <h3 className="font-semibold">Tratamento:</h3>
-            <p>Nos casos leves, o recomendado é hidratar bem a pele e aplicar medicamentos tópicos nas áreas atingidas. Já em casos graves, pode ser necessário realizar tratamentos com medicação via oral ou injetáveis. A fototerapia, com exposição à luz ultravioleta A, é uma importante opção terapêutica para aliviar os sintomas da psoríase.</p>` 
         },
     ],
     
