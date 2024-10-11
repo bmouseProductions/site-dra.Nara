@@ -1,6 +1,6 @@
 import logo from '~/logo-branca.svg'
 import SlideServices from '../../../components/slider-sevices'
-import { procedimetnos } from '../../../data/procedimentos-data'
+import { procedimentos } from '../../../data/procedimentos-data'
 
 export default function SectionProcedimentos() {
     return (
@@ -19,7 +19,7 @@ export default function SectionProcedimentos() {
                 </div>
             </div>
 
-            <SlideServices services={procedimetnos}/>
+            <SlideServices services={procedimentos.destaque}/>
         </section>
     )
 }

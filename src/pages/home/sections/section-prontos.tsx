@@ -1,4 +1,9 @@
-import nara from '../../../assets/images/naraProntos.webp'
+import nara from '@/assets/images/naraProntos.webp'
+
+import insta from '@/assets/images/icons/instagram.svg'
+import facebook from '@/assets/images/icons/facebook.svg'
+import linkedin from '@/assets/images/icons/linkedin.svg'
+import youtube from '@/assets/images/icons/youtube.svg'
 
 export default function SectionProntos(){
     return (
@@ -6,22 +11,67 @@ export default function SectionProntos(){
             <div className='container m-auto px-5 md:px-10 xl:px-14 py-10 xl:py-14 flex flex-col gap-10 lg:flex-row items-center'>
                 <div className='flex flex-col gap-5 items-center lg:items-start'>
                     <h2 className="font-rewant text-[42px] lg:text-5xl xl:text-6xl leading-10 text-center lg:text-start text-[#663210] ">
-                        estamos  prontos <br className='hidden lg:block'/> 
-                        para cuidar da 
-                        <br className='hidden lg:block'/> sua beleza
+                        Conheça minhas <br className='hidden lg:block'/> 
+                        redes sociais
                     </h2>
 
-                    <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia sequi voluptates eaque maiores a officiis praesentium dolorem. Fugiat consectetur numquam voluptatum, non doloremque reiciendis quaerat quod, ipsum amet perferendis inventore.
-                    </p>
+                    <div>
+                        <a 
+                            href="https://www.instagram.com/dranaravieira/" 
+                            target="_blank"
+                            className='text-lg flex gap-3 underline text-blue-600'
+                        >
+                            <img 
+                                src={insta} 
+                                alt="icone instagram" 
+                                className='w-5'
+                            />
 
-                    <a 
-                        href="http://" 
-                        target="_blank"
-                        className='w-fit px-5 py-2 text-lg font-semibold text-[#663210] bg-[#f0cca8] border-2 border-[#663210] rounded-2xl'
-                    >
-                        Saiba mais
-                    </a>
+                            @dranaravieira
+                        </a>
+
+                        <a 
+                            href="https://www.facebook.com/dra.naravieira/?locale=pt_BR" 
+                            target="_blank"
+                            className='text-lg flex gap-3 underline text-blue-600'
+                        >
+                            <img 
+                                src={facebook} 
+                                alt="icone instagram" 
+                                className='w-5'
+                            />
+
+                            @dra.naravieira
+                        </a>
+
+                        <a 
+                            href="https://www.youtube.com/@Dra.NaraVieira" 
+                            target="_blank"
+                            className='text-lg flex gap-3 underline text-blue-600'
+                        >
+                            <img 
+                                src={youtube} 
+                                alt="icone instagram" 
+                                className='w-5'
+                            />
+
+                            @Dra.NaraVieira
+                        </a>
+
+                        <a 
+                            href="https://www.linkedin.com/in/dranaravieira" 
+                            target="_blank"
+                            className='text-lg flex gap-3 underline text-blue-600'
+                        >
+                            <img 
+                                src={linkedin} 
+                                alt="icone instagram" 
+                                className='w-5'
+                            />
+
+                            @dranaravieira
+                        </a>
+                    </div>
                 </div>
 
                 <img 

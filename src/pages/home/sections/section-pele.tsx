@@ -1,8 +1,22 @@
+import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
+
 import nara from '@/assets/images/sentiPele.webp'
 
 export default function SectionSentirPele() {
+    
+    const { hash } = useLocation();
+
+    useEffect(() => {
+        if (hash) {
+        const element = document.getElementById(hash.replace('/#', 'sobre'));
+        if (element) {
+            element.scrollIntoView({ behavior: 'smooth' });
+        }
+        }
+    }, [hash]);
     return (
-        <section className='background-sentir-pele'>
+        <section className='background-sentir-pele' id='sobre'>
             <div className="container m-auto px-5 md:px-10 xl:px-14 py-10 xl:py-14 text-[#f0cca8] flex flex-col md:flex-row items-center lg:gap-10">
                 <div className='flex flex-col gap-5'>
                     <h1 className='font-rewant text-7xl text-center lg:text-start'>
@@ -29,15 +43,9 @@ export default function SectionSentirPele() {
                 <img 
                     src={nara}
                     alt="Foto da Doutora Nara em pé"
-                    className="hidden lg:block w-1/2 rounded-2xl my-10"
+                    className="w-full lg:w-1/2 my-10"
                 />
             </div>
-
-            <img 
-                src={nara}
-                alt="Foto da Doutora Nara em pé"
-                className="mx-auto pt-10 pb-20 lg:hidden md:rounded-2xl shadow-lg"
-            />
         </section>
     )
 }

@@ -10,7 +10,7 @@ export default function Footer() {
                     className='w-full max-w-[300px] xl:max-w-[350px] mx-auto '
                 />
 
-                <p className='text-center text-[#a0a0a0] '>
+                <p className='text-center text-[#f0cca8] '>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, excepturi, nemo, maiores accusamus harum asperiores eaque iusto ut quis nihil laborum ipsum itaque quae illum? Praesentium eligendi earum provident aliquam.
                 </p>
 

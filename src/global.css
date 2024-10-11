@@ -15,6 +15,7 @@
 
 html, body {
     background-color: #f5f6fa;
+    scroll-behavior: smooth;
 }
 
 .font-rewant{
@@ -31,6 +32,10 @@ html, body {
 ::-webkit-scrollbar-thumb {
     background: #663210;
     border-radius: 8px;
+}
+
+.height-banner {
+    height: calc(100vh - 82px);
 }
 
 .background-sentir-pele{
@@ -78,4 +83,9 @@ html, body {
 
 .swiper-pagination-bullet-active{
     background-color: #663210;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: 700;
 }

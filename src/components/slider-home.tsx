@@ -4,11 +4,11 @@ import { Autoplay, Pagination } from 'swiper/modules';
 
 import 'swiper/css';
 import 'swiper/css/pagination';
-import  ModalServices  from '../components/modal-services';
+import  ModalServices  from './modal-services';
 
 interface ServiceInterface {
     nome: string;
-    imagem?: string;
+    imagem: string;
     resumo: string;
     descricao: string;
 }
@@ -46,22 +46,18 @@ export default function SlideServices({ services }: SlideServicesProps) {
                     1280: { slidesPerView: 3.2 },
                 }}
                 modules={[Autoplay, Pagination]}
-                className='!pb-10 !pl-5 !mt-10 !container mx-auto'
+                className='!pb-7 !pl-5 !mt-10 '
             >
                 {services.map((service: ServiceInterface, index: number) => (
                     <SwiperSlide key={index}>
                         <div 
-                            className=' p-5 space-y-2 bg-white rounded-xl shadow-lg'
+                            className='p-5 space-y-2 bg-white rounded-xl shadow-lg'
                         >
-                            {service.imagem ? 
-                                <img 
-                                    src= {service.imagem}
-                                    alt={`Imagem de exemplo ${service.nome}`}
-                                    className="rounded w-full  "
-                                /> 
-                                : 
-                                <span className='hidden'></span>    
-                            }
+                            <img 
+                                src= {service.imagem}
+                                alt={`Imagem de exemplo ${service.nome}`}
+                                className="rounded w-full  "
+                            />
 
                             <h3 className='text-xl md:text-2xl font-semibold text-[#7c4f32] '>
                                 {service.nome}

@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 
 interface ServiceInterface {
   nome: string;
-  imagem: string;
+  imagem?: string;
   resumo: string;
   descricao: string;
 }
@@ -46,27 +46,32 @@ const ModalServices: React.FC<ModalProps> = ({ isOpen, onClose, service }) => {
       className="fixed z-[100000] inset-0 bg-black/60 px-5 flex items-center justify-center transition-all"
       onClick={handleBackgroundClick}
     >
-      <div className="relative z-50 w-full md:w-[80%] rounded-lg">
+      <div className="relative z-50 w-full md:w-[70%] lg:w-[65%] rounded-lg">
         
         <div className="mb-5 flex justify-end">
           <button onClick={onClose}>
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-10 h-10">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-7 h-7">
               <path className="text-red-600" strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
             </svg>
           </button>
         </div>
 
-        <div className='flex flex-col lg:flex-row max-xl:h-[80vh] overflow-auto bg-[#f5f6fa] rounded-xl'>
-          <div className='flex-1 mb-4 lg:mb-0 lg:mr-4 max-lg:rounded-xl lg:rounded-l-xl'>
-            <img 
-              src={service.imagem}
-              alt={`imagem do serviço ${service.nome}`}
-              className='w-full h-full object-cover rounded-t-lg lg:rounded-none lg:rounded-l-lg'
-            />
-          </div>
+        <div className='flex flex-col xl:flex-row h-[70vh] overflow-auto bg-[#f5f6fa] rounded-xl'>
+          
+          {service.imagem ? 
+            <div className='xl:flex-1'>
+              <img 
+                  src= {service.imagem}
+                  alt={`Imagem de exemplo ${service.nome}`}
+                  className="w-full h-full object-cover rounded-t-lg xl:rounded-none xl:rounded-l-lg"
+              />
+              </div>
+            : 
+            <span className='hidden'></span>    
+          }
 
-          <div className='flex-1 p-5'>
-            <h3 className='text-2xl text-[#81b29a] font-semibold'>
+          <div className='flex-1 p-5 overflow-auto'>
+            <h3 className='text-2xl text-[#663210] font-semibold'>
               {service.nome}
             </h3>
 
