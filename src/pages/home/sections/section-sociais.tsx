@@ -4,7 +4,6 @@ import insta from '@/assets/images/icons/instagram.svg'
 import facebook from '@/assets/images/icons/facebook.svg'
 import linkedin from '@/assets/images/icons/linkedin.svg'
 import youtube from '@/assets/images/icons/youtube.svg'
-import wpp from '@/assets/images/whatsapp.png'
 
 export default function SectionSociais(){
     return (
