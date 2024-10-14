@@ -81,6 +81,16 @@ export default function SlideServices({ services }: SlideServicesProps) {
                         </div>
                     </SwiperSlide>
                 ))}
+            
+                <div className='w-full flex justify-center'>
+                    <a 
+                        href="https://wa.me/5534998798280?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20consulta%20com%20a%20Dra.%20Nara%20por%20favor." 
+                        target="_blank"
+                        className='w-fit mx-auto mt-10 px-5 py-2 text-lg font-semibold text-[#663210] bg-[#f0cca8] border-2 border-[#663210] rounded-2xl'
+                    >
+                        Agendar consulta
+                    </a>
+                </div>
             </Swiper>
 
             {selectedService && (

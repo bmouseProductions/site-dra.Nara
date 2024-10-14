@@ -10,13 +10,9 @@ export default function Footer() {
                     className='w-full max-w-[300px] xl:max-w-[350px] mx-auto '
                 />
 
-                <p className='text-center text-[#f0cca8] '>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, excepturi, nemo, maiores accusamus harum asperiores eaque iusto ut quis nihil laborum ipsum itaque quae illum? Praesentium eligendi earum provident aliquam.
-                </p>
-
                 <div className="flex justify-center gap-5">
                     <a 
-                        href="https://www.facebook.com/olharcentrooftalmologico/"
+                        href="https://www.facebook.com/dra.naravieira/?locale=pt_BR"
                         target="_blank"
                     >
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" className="w-5">
@@ -25,7 +21,7 @@ export default function Footer() {
                     </a>
 
                     <a 
-                        href="https://www.instagram.com/olharcentrooftalmologico/"
+                        href="https://www.instagram.com/dranaravieira/"
                         target="_blank"
                     >
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" className="w-5">
@@ -34,7 +30,7 @@ export default function Footer() {
                     </a>
 
                     <a 
-                        href="https://www.youtube.com/@OLHARCentroOftalmologico"
+                        href="https://www.youtube.com/@Dra.NaraVieira"
                         target="_blank"
                     >
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 461.001 461.001" className="w-6">

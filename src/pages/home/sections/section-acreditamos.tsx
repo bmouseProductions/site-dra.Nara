@@ -7,16 +7,34 @@ export default function SectionAcreditamos(){
             <div className='container m-auto px-5 md:px-10 xl:px-14 py-10 xl:py-14 flex flex-col gap-10 lg:flex-row items-center'>
                 <div className='space-y-5'>
                     <h2 className="font-rewant text-[42px] lg:text-5xl xl:text-6xl leading-10 text-center lg:text-start text-[#663210] ">
-                        O que <br className='hidden lg:block'/> acreditamos?
+                        Sobre mim?
                     </h2>
 
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. At accusantium consectetur, inventore suscipit, aperiam corporis adipisci molestiae laudantium temporibus ipsam natus repudiandae. Quos omnis corporis cumque sit illo est reprehenderit?
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias eos placeat fugiat et explicabo molestiae vero, amet quis similique sequi repellat. Labore aut voluptates molestiae sed adipisci vitae, modi ad?
+                        Nascida e criada em Patos de Minas, sempre tive um grande interesse em cuidar das pessoas, o que 
+                        me levou a buscar minha formação na Faculdade de Medicina da UFMG. Foi lá que, no último ano de 
+                        faculdade, me apaixonei pela dermatologia durante o internato no Hospital das Clínicas.
                     </p>
 
                     <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia sequi voluptates eaque maiores a officiis praesentium dolorem. Fugiat consectetur numquam voluptatum, non doloremque reiciendis quaerat quod, ipsum amet perferendis inventore.
+                        Concluí a minha residência em Dermatologia também pelo Hospital das Clínicas da UFMG, me especializando 
+                        em uma área que, além de tratar doenças da pele, promove saúde, bem-estar e autoestima. Depois da 
+                        residência, permaneci dois anos como médica voluntária no ambulatório de dermatologia, onde me 
+                        aprofundei em cirurgia dermatológica, uma área que continua sendo uma das minhas grandes paixões. 
+                        Em 2002, retornei a Patos de Minas, onde atuo até hoje.
+                    </p>
+
+                    <p>
+                        Além da minha prática clínica, fui presidente da Associação Médica Regional de Patos de Minas em 
+                        duas gestões (2018-2020 e 2021-2023), sempre buscando promover o avanço da medicina em nossa região.
+                    </p>
+
+                    <p>
+                        Hoje, sou especialista com título pela AMB e Sociedade Brasileira de Dermatologia (SBD), sócia 
+                        efetiva da SBD e da Sociedade Brasileira de Cirurgia Dermatológica e membro do Grupo Brasileiro de 
+                        Melanoma. Minha atuação envolve desde tratamentos clínicos para doenças de pele, que muitas vezes 
+                        geram grande sofrimento físico e emocional, até procedimentos estéticos que ajudam meus pacientes a 
+                        se sentirem melhor consigo mesmos.
                     </p>
 
                     <img 

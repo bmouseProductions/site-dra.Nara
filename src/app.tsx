@@ -5,6 +5,7 @@ import Footer from './components/footer';
 
 import './global.css'
 import Header from './components/nav-bar';
+import Whatsapp from './components/whatsapp';
 
 export default function App() {
     return (
@@ -16,6 +17,7 @@ export default function App() {
             <main>
                 <RoutesAplication />
                 <BackToTop/>
+                <Whatsapp />
             </main>
             <Footer />
         </>

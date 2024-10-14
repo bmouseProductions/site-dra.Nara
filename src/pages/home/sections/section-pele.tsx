@@ -24,19 +24,17 @@ export default function SectionSentirPele() {
                     </h1>
 
                     <p className='text-center lg:text-start'>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi eos delectus modi optio dicta labore mollitia, doloribus fugiat dolore aperiam? Nostrum velit fuga sunt sit est ducimus aliquam dolorum aut?
-                    </p>
-
-                    <p className='text-center lg:text-start'>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit sequi laboriosam libero harum dolor necessitatibus error! Incidunt, alias soluta at adipisci amet saepe maiores odio fugit labore vero perferendis distinctio.
+                        A saúde da sua pele é o meu compromisso mais importante. Me dedico a oferecer cuidados personalizados 
+                        e soluções eficazes para que você possa conquistar uma pele saudável e radiante, refletindo bem-estar 
+                        e autoestima em cada momento do seu dia.
                     </p>
 
                     <a 
-                        href="http://" 
+                        href="https://wa.me/5534998798280?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20consulta%20com%20a%20Dra.%20Nara%20por%20favor." 
                         target="_blank"
-                        className='w-fit mx-auto mt-5 px-5 py-2 text-lg font-semibold text-[#663210] bg-[#f0cca8] border-2 border-[#663210] rounded-2xl'
+                        className='w-fit mt-5 px-5 py-2 text-lg font-semibold text-[#663210] bg-[#f0cca8] border-2 border-[#663210] rounded-2xl'
                     >
-                        Saiba mais
+                        Agendar consulta
                     </a>
                 </div>
 
