@@ -1,0 +1,15 @@
+{
+    "redirects": [
+      {
+        "source": "/",
+        "destination": "/home",
+        "permanent": true
+      },
+      {
+        "source": "/procedimentos",
+        "destination": "/novos-procedimentos",
+        "permanent": true
+      }
+    ]
+  }
+  
