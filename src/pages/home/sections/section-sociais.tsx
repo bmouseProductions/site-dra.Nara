@@ -9,7 +9,7 @@ export default function SectionSociais(){
     return (
         <section className="bg-[#f0cca8] ">
             <div className='container m-auto px-5 md:px-10 xl:px-14 py-10 xl:py-14 flex flex-col gap-10 lg:flex-row items-center'>
-                <div className='flex flex-col gap-5 items-center lg:items-start'>
+                <div className='flex flex-col gap-5 items-start'>
                     <h2 className="font-rewant text-[42px] lg:text-5xl xl:text-6xl leading-10 text-center lg:text-start text-[#663210] ">
                         Conheça minhas <br className='hidden lg:block'/> 
                         redes sociais
@@ -72,8 +72,9 @@ export default function SectionSociais(){
                             @dranaravieira
                         </a>
                     </div>
-
-                    <div className='space-y-2'>
+                    
+                    <h3 className='text-[#663210] '>Para entrar em contato:</h3>
+                    <div className='space-y-1'>
                         <a 
                             href="tel:+553438148280"
                             className='flex gap-2'
@@ -113,7 +114,7 @@ export default function SectionSociais(){
                             href="https://goo.gl/maps/F7C5siqBcBNHy2TT9"
                             className='flex gap-2'
                         >
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-full max-w-6">
                                 <path className='text-[#663210] ' strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
                                 <path className='text-[#663210] ' strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
                             </svg>
