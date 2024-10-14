@@ -52,7 +52,7 @@ export default function Header() {
         </NavLink>
         
         <a 
-          href="https://wa.me/5534999120030?text=Ol%C3%A1%2C%20tudo%20bem%3F%20Gostaria%20de%20marcar%20uma%20consulta%20por%20gentileza." 
+          href="https://api.whatsapp.com/send/?phone=5534998798280&text=Ol%C3%A1%2C+gostaria+de+agendar+uma+consulta+com+a+Dra.+Nara+por+favor.&type=phone_number&app_absent=0" 
           target="_blank" 
           rel="noopener noreferrer"
           className="w-fit px-5 pt-1 pb-1.5 rounded-2xl text-lg md:text-xl uppercase transition-all border-2 border-[#663210] text-white bg-[#663210]  hover:bg-transparent hover:text-[#663210]"

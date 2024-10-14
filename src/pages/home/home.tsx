@@ -5,7 +5,7 @@ import SectionAcreditamos from "./sections/section-acreditamos";
 import SectionVideo from "./sections/section-video";
 import SectionProcedimentos from "./sections/section-procedimentos";
 import Faixa from "../../components/faixa-nara";
-import SectionProntos from "./sections/section-prontos";
+import SectionSociais from "./sections/section-sociais";
 
 
 
@@ -20,7 +20,7 @@ export default function Home() {
             <SectionVideo />
             <SectionProcedimentos />
             <Faixa />
-            <SectionProntos />
+            <SectionSociais />
         </>
     )
 }
