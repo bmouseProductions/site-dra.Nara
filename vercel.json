@@ -1,15 +1,3 @@
 {
-    "redirects": [
-      {
-        "source": "/",
-        "destination": "/",
-        "permanent": true
-      },
-      {
-        "source": "/procedimentos",
-        "destination": "/procedimentos",
-        "permanent": true
-      }
-    ]
-  }
-  
+    "rewrites": [{ "source": "/(.*)", "destination": "/" }]
+}
