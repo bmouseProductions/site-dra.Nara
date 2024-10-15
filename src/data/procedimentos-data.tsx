@@ -29,11 +29,7 @@ export const procedimentos:ProcedimentosOftalmologicos = {
         {
             nome: "Bioestimuladores",
             imagem: bioestimuladores,
-            resumo: `A Acne é uma condição da pele que ocorre quando os folículos pilosos ficam obstruídos por sebo e células mortas, 
-            sendo colonizados por bactérias e gerando uma inflamação local. As principais áreas atingidas pela doença são o rosto, 
-            peito, ombros, costas e braços. A Acne tem como principais causadores a hereditariedade e os fatores hormonais, podendo 
-            se apresentar de várias formas e em graus diferentes. A alimentação também é um fator importante na doença e pode 
-            influenciar a gravidade da acne.`,
+            resumo: `Bioestimuladores são compostos usados em tratamentos estéticos e dermatológicos para estimular a produção natural de colágeno na pele. Eles atuam melhorando a firmeza, elasticidade e qualidade da pele.`,
             descricao: `
             <h3 className="font-semibold">O que é:</h3>
             <p>A Acne é uma condição da pele que ocorre quando os folículos pilosos ficam obstruídos por sebo e células mortas, 
@@ -58,7 +54,7 @@ export const procedimentos:ProcedimentosOftalmologicos = {
         {
             nome: "MMP Capilar",
             imagem: mmpCapilar,
-            resumo: `O Câncer de Pele ocorre quando há a transformação e o aumento descontrolado das células cutâneas, principalmente devido à exposição excessiva aos raios ultravioletas do sol. Entre os tipos, temos os carcinomas e melanomas.`,
+            resumo: `É um tratamento capilar que consiste na injeção de medicamentos ativos diretamente no couro cabeludo, com o objetivo de estimular o crescimento de novos fios e engrossar os existentes.`,
             descricao: `
             <h3 className="font-semibold">O que é:</h3>
             <p>O Câncer de Pele ocorre quando há a transformação e o aumento descontrolado das células cutâneas, principalmente devido à exposição excessiva aos raios ultravioletas do sol. Entre os diferentes tipos de câncer de pele, temos os carcinomas e os melanomas, sendo este último mais raro, mas que tende a se espalhar rapidamente pelo corpo.</p>
@@ -74,7 +70,7 @@ export const procedimentos:ProcedimentosOftalmologicos = {
         {
             nome: "Pelling Facial",
             imagem: peeling,
-            resumo: `A Dermatite Atópica é uma doença inflamatória crônica caracterizada por pele seca e lesões avermelhadas que coçam. Suas causas estão relacionadas a fatores genéticos, imunológicos e ambientais.`,
+            resumo: `Consiste na aplicação de substâncias químicas ou técnicas físicas para remover camadas superficiais da pele. Estimula a renovação celular, melhorando a textura, reduzindo manchas, cicatrizes de acne e linhas finas.`,
             descricao: `
             <h3 className="font-semibold">O que é:</h3>
             <p>A Dermatite Atópica é uma doença inflamatória crônica, cuja característica principal é a pele seca, formando lesões avermelhadas que coçam, descamam e podem causar ferimentos. As causas são genéticas, associadas a alterações no sistema imunológico e fatores ambientais.</p>
@@ -90,7 +86,7 @@ export const procedimentos:ProcedimentosOftalmologicos = {
         {
             nome: "Toxina",
             imagem: toxina,
-            resumo: "É uma reação inflamatória na pele decorrente da exposição a um agente que causa irritação ou alergia, podendo ser irritativa ou alérgica.",
+            resumo: "É injetada em pequenas quantidades em músculos específicos para paralisá-los temporariamente, o que pode ajudar a reduzir ou eliminar rugas e linhas de expressão. Também pode ser usada para reposicionar as sobrancelhas.",
             descricao: 
             `<h3 className="font-semibold">O que é:</h3>
             <p>A dermatite de contato é uma reação inflamatória na pele decorrente da exposição a um agente que causa irritação ou alergia. Existem dois tipos: dermatite de contato irritativa, causada por substâncias com pH diferente da pele, e dermatite de contato alérgica, que surge após repetidas exposições a um produto ou substância.</p>
@@ -105,7 +101,7 @@ export const procedimentos:ProcedimentosOftalmologicos = {
         {
             nome: "Ultraformer",
             imagem: ultraformer,
-            resumo: `A Dermatite Seborreica é uma condição crônica e não contagiosa que causa descamação e vermelhidão em áreas como o couro cabeludo, rosto e tronco. A hereditariedade, estresse e alterações climáticas podem agravar a condição.`,
+            resumo: `Ultraformer é um tratamento estético não invasivo que utiliza tecnologia de ultrassom micro e macrofocado para promover o rejuvenescimento e a firmeza da pele. O procedimento é conhecido como "lifting sem cortes".`,
             descricao: `
             <h3 className="font-semibold">O que é:</h3>
             <p>A Dermatite Seborreica é uma condição crônica e não contagiosa, caracterizada por descamação e vermelhidão em áreas como o couro cabeludo, rosto e tronco. A causa exata é desconhecida, mas fatores como hereditariedade, estresse e excesso de oleosidade podem desencadear o problema.</p>
@@ -122,11 +118,7 @@ export const procedimentos:ProcedimentosOftalmologicos = {
     "clinica": [
         {
             nome: "Acne",
-            resumo: `A Acne é uma condição da pele que ocorre quando os folículos pilosos ficam obstruídos por sebo e células mortas, 
-            sendo colonizados por bactérias e gerando uma inflamação local. As principais áreas atingidas pela doença são o rosto, 
-            peito, ombros, costas e braços. A Acne tem como principais causadores a hereditariedade e os fatores hormonais, podendo 
-            se apresentar de várias formas e em graus diferentes. A alimentação também é um fator importante na doença e pode 
-            influenciar a gravidade da acne.`,
+            resumo: `A acne é uma condição da pele que ocorre quando os folículos pilosos ficam obstruídos por sebo e células mortas, sendo colonizados por bactérias e gerando uma inflamação local. As principais áreas atingidas pela doença são o rosto, o peito, os ombros, as costas e os braços.`,
             descricao: `
             <h3 className="font-semibold">O que é:</h3>
             <p>A Acne é uma condição da pele que ocorre quando os folículos pilosos ficam obstruídos por sebo e células mortas, 
@@ -150,7 +142,7 @@ export const procedimentos:ProcedimentosOftalmologicos = {
 
         {
             nome: "Câncer de Pele",
-            resumo: `O Câncer de Pele ocorre quando há a transformação e o aumento descontrolado das células cutâneas, principalmente devido à exposição excessiva aos raios ultravioletas do sol. Entre os tipos, temos os carcinomas e melanomas.`,
+            resumo: `O câncer de pele ocorre quando há a transformação e o aumento descontrolado das células cutâneas, principalmente devido à exposição excessiva aos raios ultravioletas do sol. Entre os diferentes tipos de câncer de pele, temos os carcinomas e os melanomas.`,
             descricao: `
             <h3 className="font-semibold">O que é:</h3>
             <p>O Câncer de Pele ocorre quando há a transformação e o aumento descontrolado das células cutâneas, principalmente devido à exposição excessiva aos raios ultravioletas do sol. Entre os diferentes tipos de câncer de pele, temos os carcinomas e os melanomas, sendo este último mais raro, mas que tende a se espalhar rapidamente pelo corpo.</p>
@@ -165,7 +157,7 @@ export const procedimentos:ProcedimentosOftalmologicos = {
 
         {
             nome: "Dermatite Atópica",
-            resumo: `A Dermatite Atópica é uma doença inflamatória crônica caracterizada por pele seca e lesões avermelhadas que coçam. Suas causas estão relacionadas a fatores genéticos, imunológicos e ambientais.`,
+            resumo: `A dermatite atópica é uma doença inflamatória crônica, cuja característica principal é a pele seca, formando lesões avermelhadas que coçam, descamam e podem causar ferimentos. As causas são genéticas, associadas a alterações no sistema imunológico e fatores ambientais.`,
             descricao: `
             <h3 className="font-semibold">O que é:</h3>
             <p>A Dermatite Atópica é uma doença inflamatória crônica, cuja característica principal é a pele seca, formando lesões avermelhadas que coçam, descamam e podem causar ferimentos. As causas são genéticas, associadas a alterações no sistema imunológico e fatores ambientais.</p>
@@ -180,7 +172,7 @@ export const procedimentos:ProcedimentosOftalmologicos = {
         
         {
             nome: "Dermatite de Contato",
-            resumo: "É uma reação inflamatória na pele decorrente da exposição a um agente que causa irritação ou alergia, podendo ser irritativa ou alérgica.",
+            resumo: "A dermatite de contato é uma reação inflamatória na pele decorrente da exposição a um agente que causa irritação ou alergia. Existem dois tipos: irritativa e alérgica. A dermatite de contato pode acometer qualquer pessoa e o tratamento envolve evitar o toque no agente causador.",
             descricao: 
             `<h3 className="font-semibold">O que é:</h3>
             <p>A dermatite de contato é uma reação inflamatória na pele decorrente da exposição a um agente que causa irritação ou alergia. Existem dois tipos: dermatite de contato irritativa, causada por substâncias com pH diferente da pele, e dermatite de contato alérgica, que surge após repetidas exposições a um produto ou substância.</p>
@@ -194,7 +186,7 @@ export const procedimentos:ProcedimentosOftalmologicos = {
 
         {
             nome: "Dermatite Seborreica",
-            resumo: `A Dermatite Seborreica é uma condição crônica e não contagiosa que causa descamação e vermelhidão em áreas como o couro cabeludo, rosto e tronco. A hereditariedade, estresse e alterações climáticas podem agravar a condição.`,
+            resumo: `A dermatite seborreica é uma condição crônica e não contagiosa, caracterizada por descamação e vermelhidão em áreas como o couro cabeludo, rosto e tronco. A causa exata é desconhecida, mas fatores como hereditariedade, estresse e excesso de oleosidade podem desencadeá-la.`,
             descricao: `
             <h3 className="font-semibold">O que é:</h3>
             <p>A Dermatite Seborreica é uma condição crônica e não contagiosa, caracterizada por descamação e vermelhidão em áreas como o couro cabeludo, rosto e tronco. A causa exata é desconhecida, mas fatores como hereditariedade, estresse e excesso de oleosidade podem desencadear o problema.</p>
@@ -209,7 +201,7 @@ export const procedimentos:ProcedimentosOftalmologicos = {
 
         {
             nome: "Disidrose",
-            resumo: `A Disidrose é uma dermatite que se caracteriza por pequenas bolhas pruriginosas nas palmas das mãos e plantas dos pés. Suas causas são desconhecidas, mas está associada a fatores alérgicos e emocionais.`,
+            resumo: `A disidrose é um tipo de dermatite caracterizada por pequenas bolhas pruriginosas nas palmas das mãos e plantas dos pés. Suas causas são desconhecidas, mas a condição pode estar associada a alérgenos, estresse físico ou psicológico e lavagem muito frequente das mãos.`,
             descricao: `
             <h3 className="font-semibold">O que é:</h3>
             <p>A Disidrose é um tipo de dermatite caracterizada por pequenas bolhas pruriginosas nas palmas das mãos e plantas dos pés. Suas causas são desconhecidas, mas a condição pode estar associada a alérgenos, estresse físico ou psicológico e lavagem frequente das mãos.</p>
@@ -224,7 +216,7 @@ export const procedimentos:ProcedimentosOftalmologicos = {
 
         {
             nome: "DSTs (Doenças Sexualmente Transmissíveis)",
-            resumo: `As Doenças Sexualmente Transmissíveis (DSTs) são doenças que afetam a pele e mucosas, transmitidas através do contato sexual desprotegido. Entre elas estão o herpes genital, HPV, sífilis e outras.`,
+            resumo: `As Doenças Sexualmente Transmissíveis (DSTs) são doenças transmitidas pelo contato sexual desprotegido, afetando a pele e mucosas. Exemplos de DSTs com manifestação cutânea incluem herpes genital, HPV, sífilis e clamídia. Os tratamentos são específicos para cada doença.`,
             descricao: `
             <h3 className="font-semibold">O que é:</h3>
             <p>As Doenças Sexualmente Transmissíveis (DSTs) são doenças transmitidas pelo contato sexual desprotegido, afetando a pele e mucosas. Exemplos de DSTs com manifestação cutânea incluem herpes genital, HPV, sífilis e clamídia.</p>
@@ -239,7 +231,7 @@ export const procedimentos:ProcedimentosOftalmologicos = {
 
         {
             nome: "Hiperidrose",
-            resumo: `A Hiperidrose é caracterizada pelo suor excessivo em áreas como axilas, palmas das mãos e solas dos pés. Suas causas são relacionadas a fatores emocionais e genéticos.`,
+            resumo: `A Hiperidrose é caracterizada pelo suor excessivo em áreas como as axilas, palmas das mãos e solas dos pés. Suas causas estão relacionadas a fatores emocionais, genéticos ou a outras doenças subjacentes. Em casos mais graves, a simpatectomia pode ser indicada como tratamento.`,
             descricao: `
             <h3 className="font-semibold">O que é:</h3>
             <p>A Hiperidrose é uma condição caracterizada pelo suor excessivo em áreas como as axilas, palmas das mãos e solas dos pés. Suas causas estão relacionadas a fatores emocionais, genéticos ou a outras doenças subjacentes.</p>
@@ -254,7 +246,7 @@ export const procedimentos:ProcedimentosOftalmologicos = {
         
         {
             nome: "Melanoma",
-            resumo: "O melanoma é o tipo mais agressivo de câncer da pele, mais raro e letal que os carcinomas, pois pode se espalhar para outros órgãos.",
+            resumo: "O melanoma é o tipo mais agressivo de câncer da pele. Ele é mais raro e letal que os carcinomas, pois pode se espalhar para outros órgãos. Toda pinta preta ou castanha que muda de cor e textura, aumenta de tamanho ou torna-se irregular nas bordas é suspeita de melanoma.",
             descricao: 
             `<h3 className="font-semibold">O que é:</h3>
             <p>O melanoma é o tipo mais agressivo de câncer da pele. Ele é mais raro e letal que os carcinomas, pois pode se espalhar para outros órgãos. Toda pinta preta ou castanha que muda de cor e textura, aumenta de tamanho ou torna-se irregular nas bordas é suspeita de melanoma.</p>
@@ -268,7 +260,7 @@ export const procedimentos:ProcedimentosOftalmologicos = {
 
         {
             nome: "Melasma",
-            resumo: "São manchas escuras na pele do rosto e, em casos mais raros, podem acometer também braços, pescoço e colo. Não há uma causa definida, mas muitas vezes está relacionada ao uso de anticoncepcionais femininos, à gravidez e à exposição solar. A predisposição genética também influencia no surgimento desta condição.",
+            resumo: "O melasma são manchas escuras na pele do rosto e, em casos mais raros, pode acometer também braços, pescoço e colo. Não há uma causa definida, mas muitas vezes está relacionado ao uso de anticoncepcionais femininos, à gravidez e, principalmente, à exposição solar.",
             descricao: 
             `<h3 className="font-semibold">O que é:</h3>
             <p>O melasma são manchas escuras na pele do rosto e, em casos mais raros, pode acometer também braços, pescoço e colo. Não há uma causa definida, mas muitas vezes está relacionado ao uso de anticoncepcionais femininos, à gravidez e, principalmente, à exposição solar. A predisposição genética também influencia no surgimento desta condição. É comum uma melhora após a menopausa.</p>
@@ -282,7 +274,7 @@ export const procedimentos:ProcedimentosOftalmologicos = {
         
         {
             nome: "Micose",
-            resumo: "A micose é uma infecção fúngica que atinge a pele, as unhas e os cabelos. A doença é mais comum em épocas de muito calor e umidade, especialmente em ambientes que propiciam a proliferação dos fungos.",
+            resumo: "A micose é uma infecção fúngica que atinge a pele, as unhas e os cabelos. A doença é mais comum em épocas de muito calor e umidade, em ambientes que propiciam a proliferação dos fungos. Podem ser indicados medicamentos tópicos ou orais específicos para o tratamento.",
             descricao: 
             `<h3 className="font-semibold">O que é:</h3>
             <p>A micose é uma infecção fúngica que atinge a pele, as unhas e os cabelos. A doença é mais comum em épocas de muito calor e umidade, especialmente em ambientes que propiciam a proliferação dos fungos.</p>
@@ -296,7 +288,7 @@ export const procedimentos:ProcedimentosOftalmologicos = {
         
         {
             nome: "Psoríase",
-            resumo: "Trata-se de uma doença crônica e não contagiosa da pele, caracterizada pela presença de placas avermelhadas e descamações, principalmente nos cotovelos, joelhos, palmas, plantas e couro cabeludo.",
+            resumo: "A psoríase é uma doença crônica e não contagiosa da pele, caracterizada pela presença de placas avermelhadas e descamações, principalmente nos cotovelos, joelhos, palmas, plantas e couro cabeludo. O tratamento é personalizado de acordo com o grau da doença: leve ou grave.",
             descricao: 
             `<h3 className="font-semibold">O que é:</h3>
             <p>A psoríase é uma doença crônica e não contagiosa da pele, caracterizada pela presença de placas avermelhadas e descamações, principalmente nos cotovelos, joelhos, palmas, plantas e couro cabeludo. Tem evolução recorrente e acredita-se que a doença esteja relacionada com fatores genéticos, imunológicos e emocionais, além da variação climática e do uso de certos medicamentos.</p>
@@ -310,7 +302,7 @@ export const procedimentos:ProcedimentosOftalmologicos = {
         
         {
             nome: "Rosácea",
-            resumo: "É uma doença comum que se inicia com episódios de vermelhidão no rosto devido a vários estímulos, podendo progredir para uma vermelhidão persistente no centro da face.",
+            resumo: "A rosácea é uma doença comum que se inicia com episódios de vermelhidão no rosto devido a vários estímulos, podendo progredir para uma vermelhidão persistente no centro da face e envolvendo gradualmente as bochechas, testa, queixo e nariz. Pode ocorrer rinofima.",
             descricao: 
             `<h3 className="font-semibold">O que é:</h3>
             <p>A rosácea é uma doença comum que se inicia com episódios de vermelhidão no rosto devido a vários estímulos (frio, calor, banho quente, bebida alcoólica), podendo progredir para uma vermelhidão persistente no centro da face e envolvendo gradualmente as bochechas, testa, queixo e nariz. Olhos, orelhas, tronco e couro cabeludo podem ser afetados. Em alguns casos, pode ocorrer o rinofima, quando as glândulas sebáceas aumentam causando espessamento do nariz.</p>
@@ -324,7 +316,7 @@ export const procedimentos:ProcedimentosOftalmologicos = {
         
         {
             nome: "Vitiligo",
-            resumo: "É uma doença não contagiosa caracterizada pela perda da pigmentação natural da pele, resultando em manchas brancas em diversas áreas do corpo.",
+            resumo: "No vitiligo há perda da pigmentação natural da pele, causando o aparecimento de manchas brancas em diversas áreas do corpo. A doença pode estar relacionada a fatores genéticos e psicológicos, como estresse e ansiedade. Existem dois tipos de vitiligo: o segmentar e o generalizado.",
             descricao: 
             `<h3 className="font-semibold">O que é:</h3>
             <p>O vitiligo é uma doença não contagiosa, em que há perda da pigmentação natural da pele, causando o aparecimento de manchas brancas em diversas áreas do corpo. Existem dois tipos: Vitiligo Segmentar, em que as manchas aparecem somente de um lado do corpo, e Vitiligo Generalizado, onde surgem no corpo inteiro. A doença pode estar relacionada a fatores genéticos e psicológicos, como estresse e ansiedade.</p>
@@ -340,7 +332,7 @@ export const procedimentos:ProcedimentosOftalmologicos = {
     "cirurgica": [
         {
             nome: "Criocirurgia",
-            resumo: "Técnica que utiliza o nitrogênio líquido (-196ºC) para destruição de tecidos e lesões da pele. A substância é liberada em jatos, por meio de ponteiras especiais.",
+            resumo: "Técnica que utiliza o nitrogênio líquido para destruição de tecidos e lesões da pele. ",
             descricao: `
               <h3 className="font-semibold">O que é:</h3>
               <p>Técnica que utiliza o nitrogênio líquido (-196ºC) para destruição de tecidos e lesões da pele. A substância é liberada em jatos, por meio de ponteiras especiais.</p>
@@ -352,7 +344,7 @@ export const procedimentos:ProcedimentosOftalmologicos = {
 
         {
         nome: "Cauterização Química",
-        resumo: "É a aplicação de substâncias ácidas que promovem destruição de algumas camadas de pele para o tratamento de lesões.",
+        resumo: "Aplicação de substâncias ácidas que destroem camadas de pele para o tratamento de lesões.",
         descricao: `
             <h3 className="font-semibold">O que é:</h3>
             <p>É a aplicação de substâncias ácidas que promovem destruição de algumas camadas de pele para o tratamento de lesões.</p>
@@ -364,7 +356,7 @@ export const procedimentos:ProcedimentosOftalmologicos = {
 
         {
         nome: "Biópsia de Pele, Unha e Cabelo",
-        resumo: "É um exame que consiste na retirada de pequeno fragmento de pele (cerca de 4 a 5 mm de diâmetro) que é enviado para exame anatomopatológico no laboratório.",
+        resumo: "Retira um pequeno fragmento de pele que é enviado para exame anatomopatológico no laboratório.",
         descricao: `
             <h3 className="font-semibold">O que é:</h3>
             <p>É um exame que consiste na retirada de pequeno fragmento de pele (cerca de 4 a 5 mm de diâmetro) que é enviado para exame anatomopatológico no laboratório.</p>
@@ -388,7 +380,7 @@ export const procedimentos:ProcedimentosOftalmologicos = {
 
         {
         nome: "Eletrocoagulação",
-        resumo: "Procedimento que utiliza eletricidade e calor para destruir a lesão.",
+        resumo: "Utiliza a combinação de eletricidade e calor com o objetivo de destruir lesões, como tumorações.",
         descricao: `
             <h3 className="font-semibold">O que é:</h3>
             <p>Procedimento que utiliza eletricidade e calor para destruir a lesão.</p>
@@ -424,7 +416,7 @@ export const procedimentos:ProcedimentosOftalmologicos = {
 
         {
         nome: "Cirurgia de Unha",
-        resumo: "Tratamento cirúrgico do aparelho ungueal.",
+        resumo: "Cirurgia do aparelho ungueal. Existem diferentes tipos: a cantoplastia, a matricectomia e a onicoplastia.",
         descricao: `
             <h3 className="font-semibold">O que é:</h3>
             <p>Tratamento cirúrgico do aparelho ungueal.</p>
@@ -438,7 +430,7 @@ export const procedimentos:ProcedimentosOftalmologicos = {
     "estetica": [
         {
             nome: "Hidratação Injetável (Skinbooster)",
-            resumo: "O Skinbooster é um tratamento que tem como objetivo promover a hidratação profunda da pele, repondo quantidades de ácido hialurônico e colágeno perdidos com o processo de envelhecimento.",
+            resumo: "Tem como objetivo promover a hidratação profunda da pele, repondo quantidades de ácido hialurônico e colágeno perdidos com o processo de envelhecimento.",
             descricao: `
               <h3 className="font-semibold">O que é:</h3>
               <p>O Skinbooster é um tratamento que tem como objetivo promover a hidratação profunda da pele, repondo quantidades de ácido hialurônico e colágeno perdidos com o processo de envelhecimento. O procedimento é feito por meio de injeções de ácido hialurônico abaixo da pele, após o uso de um anestésico tópico. O resultado é a melhora geral do aspecto da área tratada, que pode ser observado desde a primeira sessão, de forma gradual.</p>
@@ -449,77 +441,82 @@ export const procedimentos:ProcedimentosOftalmologicos = {
               <p>Em geral, são indicadas pelo menos 3 sessões (intervalos mensais) para alcançar os melhores resultados.</p>
             `,
         },
+
         {
-        nome: "Indução Percutânea de Colágeno Por Agulhas (IPCA)",
-        resumo: "É um tratamento em que são realizados centenas de microperfurações na pele para promover a vasodilatação local e estimular a produção de colágeno.",
-        descricao: `
-            <h3 className="font-semibold">O que é:</h3>
-            <p>É um tratamento em que são realizados centenas de microperfurações na pele, a fim de promover a vasodilatação local, estimular os fibroblastos e a produção de colágeno. Além disso, esse procedimento ajuda na melhor absorção de medicamentos específicos na área tratada, promovendo resultados mais satisfatórios e em menos tempo.</p>
-            <br />
-            <h3 className="font-semibold">Indicações:</h3>
-            <p>O procedimento é indicado para tratar o fotoenvelhecimento, melhorando a textura da pele e atenuando o melasma, cicatrizes da acne, queimaduras, estrias e manchas.</p>
-            <h3 className="font-semibold">Como é feito:</h3>
-            <p>Pode ser realizado por meio de um aparelho manual, composto por diversas agulhas fininhas (dermaroller) ou com o auxílio de sistemas motorizados (dermapen). Este tratamento pode ser feito isoladamente ou em conjunto com demais técnicas, como a radiofrequência, potencializando os resultados.</p>
-        `,
+            nome: "Indução Percutânea de Colágeno Por Agulhas (IPCA)",
+            resumo: "São realizadas centenas de microperfurações na pele, a fim de promover a vasodilatação local, estimular os fibroblastos e a produção de colágeno.",
+            descricao: `
+                <h3 className="font-semibold">O que é:</h3>
+                <p>É um tratamento em que são realizados centenas de microperfurações na pele, a fim de promover a vasodilatação local, estimular os fibroblastos e a produção de colágeno. Além disso, esse procedimento ajuda na melhor absorção de medicamentos específicos na área tratada, promovendo resultados mais satisfatórios e em menos tempo.</p>
+                <br />
+                <h3 className="font-semibold">Indicações:</h3>
+                <p>O procedimento é indicado para tratar o fotoenvelhecimento, melhorando a textura da pele e atenuando o melasma, cicatrizes da acne, queimaduras, estrias e manchas.</p>
+                <h3 className="font-semibold">Como é feito:</h3>
+                <p>Pode ser realizado por meio de um aparelho manual, composto por diversas agulhas fininhas (dermaroller) ou com o auxílio de sistemas motorizados (dermapen). Este tratamento pode ser feito isoladamente ou em conjunto com demais técnicas, como a radiofrequência, potencializando os resultados.</p>
+            `,
         },
+
         {
-        nome: "MMP",
-        resumo: "É a infusão de medicamentos na pele, variando conforme o diagnóstico.",
-        descricao: `
-            <h3 className="font-semibold">O que é:</h3>
-            <p>É a infusão de medicamentos na pele. O medicamento injetado varia de acordo com o diagnóstico.</p>
-            <br />
-            <h3 className="font-semibold">Indicações:</h3>
-            <p>É utilizada para tratamento de diversas lesões da pele, como verrugas, queloides, leucodermias (“sardas brancas”), calvície masculina e feminina e para rejuvenescimento.</p>
-            <h3 className="font-semibold">Como é feito:</h3>
-            <p>Procedimento executado por médicos dermatologistas e baseado no uso de microagulhas por onde são injetadas substâncias químicas. O principal diferencial dessa técnica é a incrível delicadeza da microperfuração, associada à possibilidade de um tratamento uniforme e preciso, em pequenas lesões de pele. São necessárias em média, 1 a 4 sessões com intervalos de 3 a 4 semanas entre elas.</p>
-        `,
+            nome: "MMP",
+            resumo: "É a infusão de medicamentos na pele. O medicamento injetado varia de acordo com o diagnóstico. São necessárias em média, 1 a 4 sessões.",
+            descricao: `
+                <h3 className="font-semibold">O que é:</h3>
+                <p>É a infusão de medicamentos na pele. O medicamento injetado varia de acordo com o diagnóstico.</p>
+                <br />
+                <h3 className="font-semibold">Indicações:</h3>
+                <p>É utilizada para tratamento de diversas lesões da pele, como verrugas, queloides, leucodermias (“sardas brancas”), calvície masculina e feminina e para rejuvenescimento.</p>
+                <h3 className="font-semibold">Como é feito:</h3>
+                <p>Procedimento executado por médicos dermatologistas e baseado no uso de microagulhas por onde são injetadas substâncias químicas. O principal diferencial dessa técnica é a incrível delicadeza da microperfuração, associada à possibilidade de um tratamento uniforme e preciso, em pequenas lesões de pele. São necessárias em média, 1 a 4 sessões com intervalos de 3 a 4 semanas entre elas.</p>
+            `,
         },
+
         {
-        nome: "Peelings Químicos",
-        resumo: "Procedimentos que visam melhorar a textura e aparência da pele por meio da remoção das camadas mais superficiais.",
-        descricao: `
-            <h3 className="font-semibold">O que é:</h3>
-            <p>São procedimentos que têm como objetivo melhorar a textura e a aparência, por meio da remoção das camadas mais superficiais da pele. Nos peelings químicos, a remoção das camadas da pele é feita por meio de diferentes ácidos, que podem ser superficiais, médios ou profundos.</p>
-            <br />
-            <h3 className="font-semibold">Indicações:</h3>
-            <p>Os peelings promovem a melhora geral da textura da pele, atenuando rugas finas, estrias, cicatrizes, acne, melasma e outros tipos de manchas.</p>
-            <h3 className="font-semibold">Como é feito:</h3>
-            <p>Em consultório dermatológico, aplicando o ácido mais indicado para o paciente.</p>
-        `,
+            nome: "Peelings Químicos",
+            resumo: "Nos peelings químicos, a remoção das camadas da pele é feita por meio de diferentes ácidos, que podem ser superficiais, médios ou profundos.",
+            descricao: `
+                <h3 className="font-semibold">O que é:</h3>
+                <p>São procedimentos que têm como objetivo melhorar a textura e a aparência, por meio da remoção das camadas mais superficiais da pele. Nos peelings químicos, a remoção das camadas da pele é feita por meio de diferentes ácidos, que podem ser superficiais, médios ou profundos.</p>
+                <br />
+                <h3 className="font-semibold">Indicações:</h3>
+                <p>Os peelings promovem a melhora geral da textura da pele, atenuando rugas finas, estrias, cicatrizes, acne, melasma e outros tipos de manchas.</p>
+                <h3 className="font-semibold">Como é feito:</h3>
+                <p>Em consultório dermatológico, aplicando o ácido mais indicado para o paciente.</p>
+            `,
         },
+
         {
-        nome: "Preenchimento Cutâneo",
-        resumo: "O preenchimento facial é feito principalmente com ácido hialurônico, oferecendo sustentação e volume à pele.",
-        descricao: `
-            <h3 className="font-semibold">O que é:</h3>
-            <p>A substância mais utilizada no preenchimento facial é o Ácido Hialurônico. Ele oferece sustentação, hidratação e volume para a pele, melhorando o contorno facial e suavizando vincos profundos. Trata-se de um produto ideal muito seguro, principalmente quando aplicado usando técnicas e quantidades corretas.</p>
-            <br />
-            <h3 className="font-semibold">Indicações:</h3>
-            <p>Melhorar o contorno facial, suavizar linhas e rugas, além de devolver volume às depressões e sulcos faciais. Ótimo para tratamento de lóbulos de orelhas e lábios.</p>
-            <h3 className="font-semibold">Como é feito:</h3>
-            <p>O preenchimento cutâneo é aplicado abaixo da pele, por meio de uma agulha ou cânulas. O tempo médio de duração do preenchimento depende do local tratado e da substância utilizada.</p>
-        `,
+            nome: "Preenchimento Cutâneo",
+            resumo: "A substância mais utilizada no preenchimento facial é o Ácido Hialurônico, que melhora o contorno facial e suaviza vincos profundos.",
+            descricao: `
+                <h3 className="font-semibold">O que é:</h3>
+                <p>A substância mais utilizada no preenchimento facial é o Ácido Hialurônico. Ele oferece sustentação, hidratação e volume para a pele, melhorando o contorno facial e suavizando vincos profundos. Trata-se de um produto ideal muito seguro, principalmente quando aplicado usando técnicas e quantidades corretas.</p>
+                <br />
+                <h3 className="font-semibold">Indicações:</h3>
+                <p>Melhorar o contorno facial, suavizar linhas e rugas, além de devolver volume às depressões e sulcos faciais. Ótimo para tratamento de lóbulos de orelhas e lábios.</p>
+                <h3 className="font-semibold">Como é feito:</h3>
+                <p>O preenchimento cutâneo é aplicado abaixo da pele, por meio de uma agulha ou cânulas. O tempo médio de duração do preenchimento depende do local tratado e da substância utilizada.</p>
+            `,
         },
+
         {
-        nome: "Toxina Botulínica",
-        resumo: "Substância que, ao ser injetada, bloqueia os sinais nervosos musculares, diminuindo a contração muscular.",
-        descricao: `
-            <h3 className="font-semibold">O que é:</h3>
-            <p>É uma substância que, quando injetada no músculo, bloqueia os sinais nervosos musculares, diminuindo a contração muscular. Quando injetada nos locais de suor intenso, bloqueia a sudorese temporariamente.</p>
-            <br />
-            <h3 className="font-semibold">Indicações:</h3>
-            <p>As principais indicações do tratamento são relacionadas ao seu uso estético, para a prevenção e a melhora do aspecto das rugas dinâmicas da face e pescoço. Além disso, a toxina também é uma boa opção terapêutica para tratar a hiperidrose (sudorese excessiva em axilas, pés e mãos) e a enxaqueca crônica.</p>
-            <h3 className="font-semibold">Como é feito:</h3>
-            <p>O procedimento é simples e não requer nenhum tipo de anestesia. No entanto, nos casos em que o paciente é muito sensível, pode-se utilizar um anestésico tópico local, aproximadamente 1 hora antes do procedimento. Os resultados das aplicações são observados após duas semanas e duram de 4 a 6 meses, período em que a toxina para de agir no músculo.</p>
-        `,
+            nome: "Toxina Botulínica",
+            resumo: "É uma substância que, quando injetada no músculo, bloqueia os sinais nervosos musculares, diminuindo a contração muscular.",
+            descricao: `
+                <h3 className="font-semibold">O que é:</h3>
+                <p>É uma substância que, quando injetada no músculo, bloqueia os sinais nervosos musculares, diminuindo a contração muscular. Quando injetada nos locais de suor intenso, bloqueia a sudorese temporariamente.</p>
+                <br />
+                <h3 className="font-semibold">Indicações:</h3>
+                <p>As principais indicações do tratamento são relacionadas ao seu uso estético, para a prevenção e a melhora do aspecto das rugas dinâmicas da face e pescoço. Além disso, a toxina também é uma boa opção terapêutica para tratar a hiperidrose (sudorese excessiva em axilas, pés e mãos) e a enxaqueca crônica.</p>
+                <h3 className="font-semibold">Como é feito:</h3>
+                <p>O procedimento é simples e não requer nenhum tipo de anestesia. No entanto, nos casos em que o paciente é muito sensível, pode-se utilizar um anestésico tópico local, aproximadamente 1 hora antes do procedimento. Os resultados das aplicações são observados após duas semanas e duram de 4 a 6 meses, período em que a toxina para de agir no músculo.</p>
+            `,
         },
     ],
 
     "laser": [
         {
             nome: "Depilação",
-            resumo: `A depilação a laser age pelo princípio da fototermólise seletiva, aquecendo o pelo em formação e o destruindo. Em suma, a melanina do pelo capta a energia do laser, destruindo o folículo piloso e dificultando a geração de novos pelos.`,
+            resumo: `A depilação a laser age pelo princípio da fototermólise seletiva, aquecendo o pelo em formação e o destruindo.`,
             descricao: `
             <h3 className="font-semibold">O que é:</h3>
             <p>A depilação a laser age pelo princípio da fototermólise seletiva, aquecendo o pelo em formação e o destruindo. Em suma, a melanina do pelo capta a energia do laser, destruindo o folículo piloso e dificultando a geração de novos pelos.</p>
@@ -554,64 +551,64 @@ export const procedimentos:ProcedimentosOftalmologicos = {
         },
 
         {
-        nome: "Luz Intensa Pulsada",
-        resumo: "O procedimento consiste na emissão de uma luz de alta energia que gera calor, atingindo diferentes alvos.",
-        descricao: `
-            <h3 className="font-semibold">O que é:</h3>
-            <p>O procedimento consiste na emissão de uma luz de alta energia que gera calor, atingindo diferentes alvos, como os pigmentos, vasos sanguíneos e pelos, além de estimular a produção de colágeno. Pode ser utilizada isoladamente ou em conjunto com outras técnicas.</p>
-            <br />
-            <h3 className="font-semibold">Indicações:</h3>
-            <p>A Luz Intensa pulsada é indicada para melhorar a textura da pele, clarear manchas faciais e corporais e atenuar o aspecto das telangiectasias (vasos sanguíneos aparentes). Indicada também para tratamento de rosácea.</p>
-            <br />
-            <h3 className="font-semibold">Como é feito:</h3>
-            <p>Por médico dermatologista em consultório. A luz é aplicada na pele após colocação de gel para proteção local. São necessárias 3 a 5 sessões mensais.</p>
-            <br />
-            <h3 className="font-semibold">Cuidados:</h3>
-            <p>É muito importante evitar a exposição solar intensa por 30 dias antes e após a aplicação do laser. Não é necessário evitar exercícios físicos. A maquiagem pode ser utilizada no mesmo dia após a aplicação.</p>
-        `,
+            nome: "Luz Intensa Pulsada",
+            resumo: "O procedimento consiste na emissão de uma luz de alta energia que gera calor, atingindo diferentes alvos.",
+            descricao: `
+                <h3 className="font-semibold">O que é:</h3>
+                <p>O procedimento consiste na emissão de uma luz de alta energia que gera calor, atingindo diferentes alvos, como os pigmentos, vasos sanguíneos e pelos, além de estimular a produção de colágeno. Pode ser utilizada isoladamente ou em conjunto com outras técnicas.</p>
+                <br />
+                <h3 className="font-semibold">Indicações:</h3>
+                <p>A Luz Intensa pulsada é indicada para melhorar a textura da pele, clarear manchas faciais e corporais e atenuar o aspecto das telangiectasias (vasos sanguíneos aparentes). Indicada também para tratamento de rosácea.</p>
+                <br />
+                <h3 className="font-semibold">Como é feito:</h3>
+                <p>Por médico dermatologista em consultório. A luz é aplicada na pele após colocação de gel para proteção local. São necessárias 3 a 5 sessões mensais.</p>
+                <br />
+                <h3 className="font-semibold">Cuidados:</h3>
+                <p>É muito importante evitar a exposição solar intensa por 30 dias antes e após a aplicação do laser. Não é necessário evitar exercícios físicos. A maquiagem pode ser utilizada no mesmo dia após a aplicação.</p>
+            `,
         },
 
         {
-        nome: "Ultrassom Micro e Macro Focado",
-        resumo: "Aparelho que produz micropontos de coagulação na pele, gordura e musculatura, promovendo produção de colágeno.",
-        descricao: `
-            <h3 className="font-semibold">O que é:</h3>
-            <p>Trata-se de um aparelho que produz micropontos de coagulação na pele, gordura e musculatura da área tratada, causando um processo inflamatório no qual há a produção de novo colágeno e a reestruturação das antigas fibras de sustentação.</p>
-            <br />
-            <h3 className="font-semibold">Indicações:</h3>
-            <p>Indicado para pacientes que possuem algum grau de flacidez facial e corporal e que não querem se submeter a tratamentos invasivos. Indicado para tratamento de pequenas áreas de gordura localizada.</p>
-            <br />
-            <h3 className="font-semibold">Como é feito:</h3>
-            <p>O tratamento facial é feito por dermatologista e o corporal por fisioterapeuta da clínica. O ultrassom é passado na pele após aplicação de gel no local.</p>
-            <br />
-            <h3 className="font-semibold">Cuidados:</h3>
-            <p>Não é necessário ter cuidados especiais após a aplicação e nem evitar exercícios físicos. A maquiagem e rotina de cuidados faciais pode ser utilizada no mesmo dia após a aplicação.</p>
-        `,
+            nome: "Ultrassom Micro e Macro Focado",
+            resumo: "Causa um processo inflamatório no qual há a produção de novo colágeno e a reestruturação das antigas fibras de sustentação.",
+            descricao: `
+                <h3 className="font-semibold">O que é:</h3>
+                <p>Trata-se de um aparelho que produz micropontos de coagulação na pele, gordura e musculatura da área tratada, causando um processo inflamatório no qual há a produção de novo colágeno e a reestruturação das antigas fibras de sustentação.</p>
+                <br />
+                <h3 className="font-semibold">Indicações:</h3>
+                <p>Indicado para pacientes que possuem algum grau de flacidez facial e corporal e que não querem se submeter a tratamentos invasivos. Indicado para tratamento de pequenas áreas de gordura localizada.</p>
+                <br />
+                <h3 className="font-semibold">Como é feito:</h3>
+                <p>O tratamento facial é feito por dermatologista e o corporal por fisioterapeuta da clínica. O ultrassom é passado na pele após aplicação de gel no local.</p>
+                <br />
+                <h3 className="font-semibold">Cuidados:</h3>
+                <p>Não é necessário ter cuidados especiais após a aplicação e nem evitar exercícios físicos. A maquiagem e rotina de cuidados faciais pode ser utilizada no mesmo dia após a aplicação.</p>
+            `,
         },
 
         {
-        nome: "Radiofrequência Facial e Corporal",
-        resumo: "Aplicação de ondas de radiofrequência na pele com ativação do colágeno através do aumento da temperatura local.",
-        descricao: `
-            <h3 className="font-semibold">O que é:</h3>
-            <p>Aplicação de ondas de radiofrequência na pele com ativação do colágeno através do aumento da temperatura local, podendo melhorar o contorno facial, corporal e a celulite, pois dá mais firmeza à pele.</p>
-            <br />
-            <h3 className="font-semibold">Indicações:</h3>
-            <p>Flacidez facial e corporal.</p>
-            <br />
-            <h3 className="font-semibold">Como é feito:</h3>
-            <p>Por aplicação direta na pele feita pela fisioterapeuta da clínica. São necessárias 6 a 10 sessões.</p>
-            <br />
-            <h3 className="font-semibold">Cuidados:</h3>
-            <p>Evitar banhos frios logo após as aplicações.</p>
-        `,
+            nome: "Radiofrequência Facial e Corporal",
+            resumo: "Aplicação de ondas de radiofrequência na pele com ativação do colágeno através do aumento da temperatura local.",
+            descricao: `
+                <h3 className="font-semibold">O que é:</h3>
+                <p>Aplicação de ondas de radiofrequência na pele com ativação do colágeno através do aumento da temperatura local, podendo melhorar o contorno facial, corporal e a celulite, pois dá mais firmeza à pele.</p>
+                <br />
+                <h3 className="font-semibold">Indicações:</h3>
+                <p>Flacidez facial e corporal.</p>
+                <br />
+                <h3 className="font-semibold">Como é feito:</h3>
+                <p>Por aplicação direta na pele feita pela fisioterapeuta da clínica. São necessárias 6 a 10 sessões.</p>
+                <br />
+                <h3 className="font-semibold">Cuidados:</h3>
+                <p>Evitar banhos frios logo após as aplicações.</p>
+            `,
         },
     ],
 
     "capilar": [
         {
             nome: "Eflúvio Telógeno",
-            resumo: "É o nome dado para a queda capilar difusa sem alterações na estrutura do fio.",
+            resumo: "É o nome dado para a queda capilar difusa sem alterações na estrutura do fio. Pode acontecer por vários motivos.",
             descricao: `
               <h3 className="font-semibold">O que é:</h3>
               <p>É o nome dado para a queda capilar difusa sem alterações na estrutura do fio. Pode acontecer por vários motivos e, geralmente, começa 3 meses após o problema desencadeante.</p>
@@ -623,76 +620,81 @@ export const procedimentos:ProcedimentosOftalmologicos = {
               <p>Consiste na correção das causas quando forem detectadas, uso de suplementos e medicações tópicas.</p>
             `,
         },
+
         {
-        nome: "Alopecia Androgenética (Calvície)",
-        resumo: "É uma doença genética em que há uma diminuição da espessura dos fios, especialmente no topo da cabeça.",
-        descricao: `
-            <h3 className="font-semibold">O que é:</h3>
-            <p>É uma doença genética em que há uma diminuição da espessura dos fios, ou seja, um afinamento dos cabelos, principalmente no topo da cabeça. Tem a influência dos hormônios androgênicos que são os hormônios masculinos.</p>
-            <br />
-            <h3 className="font-semibold">Em quem ocorre:</h3>
-            <p>80% dos homens e 50% das mulheres ao longo da vida, podendo começar na puberdade.</p>
-            <br />
-            <h3 className="font-semibold">Tratamento:</h3>
-            <p>Específico para alopécia androgenética, pode ser feito com medicações tópicas, orais, aplicações no couro cabeludo (MMP e LED) e transplante capilar.</p>
-        `,
+            nome: "Alopecia Androgenética (Calvície)",
+            resumo: "É uma doença genética em que há um afinamento dos cabelos.",
+            descricao: `
+                <h3 className="font-semibold">O que é:</h3>
+                <p>É uma doença genética em que há uma diminuição da espessura dos fios, ou seja, um afinamento dos cabelos, principalmente no topo da cabeça. Tem a influência dos hormônios androgênicos que são os hormônios masculinos.</p>
+                <br />
+                <h3 className="font-semibold">Em quem ocorre:</h3>
+                <p>80% dos homens e 50% das mulheres ao longo da vida, podendo começar na puberdade.</p>
+                <br />
+                <h3 className="font-semibold">Tratamento:</h3>
+                <p>Específico para alopécia androgenética, pode ser feito com medicações tópicas, orais, aplicações no couro cabeludo (MMP e LED) e transplante capilar.</p>
+            `,
         },
+
         {
-        nome: "Alopecia Areata (Pelada)",
-        resumo: "É uma doença inflamatória que provoca a queda de cabelo, formando áreas de pelada no couro cabeludo e barba.",
-        descricao: `
-            <h3 className="font-semibold">O que é:</h3>
-            <p>É uma doença inflamatória, de causa indefinida, que provoca a queda de cabelo, formando áreas de pelada no couro cabeludo e barba, principalmente. O número de lesões varia e pode chegar a atingir todo o couro cabeludo (total) ou todos os pelos do corpo (universal).</p>
-            <br />
-            <h3 className="font-semibold">Em quem ocorre:</h3>
-            <p>Em qualquer pessoa. Fatores genéticos, emocionais, traumas físicos e quadros infecciosos podem desencadear ou agravar o quadro.</p>
-            <br />
-            <h3 className="font-semibold">Tratamento:</h3>
-            <p>Medicamentos tópicos, infiltrações intralesionais e medicação oral, dependendo da gravidade do caso.</p>
-        `,
+            nome: "Alopecia Areata (Pelada)",
+            resumo: "É uma doença inflamatória que provoca a queda de cabelo, formando áreas de pelada no couro cabeludo e barba.",
+            descricao: `
+                <h3 className="font-semibold">O que é:</h3>
+                <p>É uma doença inflamatória, de causa indefinida, que provoca a queda de cabelo, formando áreas de pelada no couro cabeludo e barba, principalmente. O número de lesões varia e pode chegar a atingir todo o couro cabeludo (total) ou todos os pelos do corpo (universal).</p>
+                <br />
+                <h3 className="font-semibold">Em quem ocorre:</h3>
+                <p>Em qualquer pessoa. Fatores genéticos, emocionais, traumas físicos e quadros infecciosos podem desencadear ou agravar o quadro.</p>
+                <br />
+                <h3 className="font-semibold">Tratamento:</h3>
+                <p>Medicamentos tópicos, infiltrações intralesionais e medicação oral, dependendo da gravidade do caso.</p>
+            `,
         },
+
         {
-        nome: "Alopecias Cicatriciais",
-        resumo: "É um tipo de queda de cabelo permanente que deve ser diagnosticada e tratada em seu estágio inicial.",
-        descricao: `
-            <h3 className="font-semibold">O que é:</h3>
-            <p>É um tipo de queda de cabelo permanente que deve ser diagnosticada e tratada em seu estágio inicial para evitar perda definitiva do cabelo da região afetada.</p>
-            <br />
-            <h3 className="font-semibold">Em quem ocorre:</h3>
-            <p>Ocorre em homens e mulheres.</p>
-            <br />
-            <h3 className="font-semibold">Tratamento:</h3>
-            <p>Após confirmação do diagnóstico (pode ser necessária a biópsia do couro cabeludo), o tratamento é instituído com medicações tópicas e orais específicas para cada caso.</p>
-        `,
+            nome: "Alopecias Cicatriciais",
+            resumo: "É um tipo de queda de cabelo permanente que deve ser diagnosticada e tratada em seu estágio inicial.",
+            descricao: `
+                <h3 className="font-semibold">O que é:</h3>
+                <p>É um tipo de queda de cabelo permanente que deve ser diagnosticada e tratada em seu estágio inicial para evitar perda definitiva do cabelo da região afetada.</p>
+                <br />
+                <h3 className="font-semibold">Em quem ocorre:</h3>
+                <p>Ocorre em homens e mulheres.</p>
+                <br />
+                <h3 className="font-semibold">Tratamento:</h3>
+                <p>Após confirmação do diagnóstico (pode ser necessária a biópsia do couro cabeludo), o tratamento é instituído com medicações tópicas e orais específicas para cada caso.</p>
+            `,
         },
+
         {
-        nome: "Terapia Capilar",
-        resumo: "A Terapia Capilar é iniciada após um diagnóstico capilar, promovendo a remoção de células mortas.",
-        descricao: `
-            <h3 className="font-semibold">O que é:</h3>
-            <p>A Terapia Capilar é iniciada após um diagnóstico capilar, realizado por meio da avaliação detalhada dos fios e do couro cabeludo com o auxílio de exames como a tricoscopia, o tricograma e a biópsia. O tratamento consiste em realizar peelings no couro cabeludo, promovendo a descamação e a remoção das células mortas.</p>
-            <br />
-            <h3 className="font-semibold">Indicações:</h3>
-            <p>Indicado para pacientes que sofrem com dermatite seborreica e se incomodam com a oleosidade excessiva do couro cabeludo. Além disso, é uma ótima opção para quem deseja fortalecer os fios e evitar a queda e a quebra capilar.</p>
-        `,
+            nome: "Terapia Capilar",
+            resumo: "A Terapia Capilar é iniciada após um diagnóstico capilar, promovendo a remoção de células mortas.",
+            descricao: `
+                <h3 className="font-semibold">O que é:</h3>
+                <p>A Terapia Capilar é iniciada após um diagnóstico capilar, realizado por meio da avaliação detalhada dos fios e do couro cabeludo com o auxílio de exames como a tricoscopia, o tricograma e a biópsia. O tratamento consiste em realizar peelings no couro cabeludo, promovendo a descamação e a remoção das células mortas.</p>
+                <br />
+                <h3 className="font-semibold">Indicações:</h3>
+                <p>Indicado para pacientes que sofrem com dermatite seborreica e se incomodam com a oleosidade excessiva do couro cabeludo. Além disso, é uma ótima opção para quem deseja fortalecer os fios e evitar a queda e a quebra capilar.</p>
+            `,
         },
+
         {
-        nome: "Microinfusão de Medicamentos na Pele (MMP)",
-        resumo: "O MMP visa inserir medicamentos específicos diretamente no couro cabeludo.",
-        descricao: `
-            <h3 className="font-semibold">O que é:</h3>
-            <p>O MMP (Microinfusão de Medicamentos na Pele) é um tratamento que visa inserir, por meio de um aparelho com microagulhas, medicamentos específicos diretamente no couro cabeludo, melhorando a absorção destes ativos e otimizando os resultados.</p>
-            <br />
-            <h3 className="font-semibold">Indicações:</h3>
-            <p>Vários tipos de alopecia (queda de cabelo), como alopecia androgenética, alopecia areata e eflúvio telógeno.</p>
-        `,
+            nome: "Microinfusão de Medicamentos na Pele (MMP)",
+            resumo: "O MMP visa inserir medicamentos específicos diretamente no couro cabeludo.",
+            descricao: `
+                <h3 className="font-semibold">O que é:</h3>
+                <p>O MMP (Microinfusão de Medicamentos na Pele) é um tratamento que visa inserir, por meio de um aparelho com microagulhas, medicamentos específicos diretamente no couro cabeludo, melhorando a absorção destes ativos e otimizando os resultados.</p>
+                <br />
+                <h3 className="font-semibold">Indicações:</h3>
+                <p>Vários tipos de alopecia (queda de cabelo), como alopecia androgenética, alopecia areata e eflúvio telógeno.</p>
+            `,
         },
     ],
 
     "homem": [
         {
             nome: "Toxina Botulínica",
-            resumo: "Para tratar as rugas de expressão, deve-se ter cuidado com o posicionamento das sobrancelhas, que devem permanecer retificadas.",
+            resumo: "O uso da toxina botulínica tem como objetivo suavizar as linhas de expressão.",
             descricao: `
               <p>Para tratar as rugas de expressão, deve-se ter cuidado com o posicionamento das sobrancelhas, que devem permanecer retificadas e a permanência de rugas fixas superficiais na testa e entre as sobrancelhas são, de certo ponto, desejáveis, já que representam a masculinidade. Por isso, o uso de toxina botulínica nestas regiões tem como objetivo apenas suavizar as linhas de expressão e não as abolir completamente.</p>
             `,
@@ -700,7 +702,7 @@ export const procedimentos:ProcedimentosOftalmologicos = {
 
         {
             nome: "Preenchimentos",
-            resumo: "Reforçar o terço inferior da face com preenchimentos que deixam o queixo mais quadrado e os ângulos da mandíbula mais proeminentes.",
+            resumo: "O uso da toxina botulínica tem como objetivo suavizar as linhas de expressão.",
             descricao: `
                 <p>Reforçar o terço inferior da face com preenchimentos que deixam o queixo mais quadrado e os ângulos da mandíbula mais proeminentes são extremamente indicados para realçar a beleza masculina. O rosto quadrado representa a força, masculinidade e poder dos homens.</p>
             `,
@@ -733,7 +735,7 @@ export const procedimentos:ProcedimentosOftalmologicos = {
 
         {
             nome: "Unhas",
-            resumo: "É importante cortá-las bem e mantê-las limpas.",
+            resumo: "Até 35% dos homens desenvolvem unha encravada durante a vida, causando dor e desconforto.",
             descricao: `
                 <p>É importante cortá-las bem e deixá-las limpas. Até 35% dos homens desenvolvem unha encravada durante a vida, causando dor e desconforto. Não cortar os cantos das unhas ajuda a evitar esse problema. Micoses de unha ocorrem frequentemente, especialmente nos pés, e podem levar a graves infecções.</p>
             `,

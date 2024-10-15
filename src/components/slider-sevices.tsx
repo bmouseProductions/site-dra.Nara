@@ -51,7 +51,7 @@ export default function SlideServices({ services }: SlideServicesProps) {
                 {services.map((service: ServiceInterface, index: number) => (
                     <SwiperSlide key={index}>
                         <div 
-                            className=' p-5 space-y-2 bg-white rounded-xl shadow-lg'
+                            className=' p-5 flex flex-col gap-2 bg-white rounded-xl shadow-lg'
                         >
                             {service.imagem ? 
                                 <img 
@@ -73,7 +73,7 @@ export default function SlideServices({ services }: SlideServicesProps) {
                             </p>
 
                             <button 
-                                className= 'px-5 py-2 rounded-xl text-lg  uppercase transition-all bg-[#7c4f32] text-white border-2 border-[#7c4f32] hover:bg-white hover:text-[#7c4f32] '
+                                className= 'mx-auto mt-2 px-5 py-2 rounded-xl text-lg uppercase transition-all bg-[#7c4f32] text-white border-2 border-[#7c4f32] hover:bg-white hover:text-[#7c4f32] '
                                 onClick={() => openModal(service)}
                             >
                                 Saiba mais
