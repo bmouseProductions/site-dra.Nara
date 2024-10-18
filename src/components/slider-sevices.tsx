@@ -15,9 +15,10 @@ interface ServiceInterface {
 
 interface SlideServicesProps {
     services: ServiceInterface[];
+    light?: boolean;
 }
 
-export default function SlideServices({ services }: SlideServicesProps) {
+export default function SlideServices({ services, light }: SlideServicesProps) {
 
     const [isModalOpen, setIsModalOpen] = useState<boolean>(false);
     const [selectedService, setSelectedService] = useState<ServiceInterface | null>(null);
@@ -46,7 +47,7 @@ export default function SlideServices({ services }: SlideServicesProps) {
                     1280: { slidesPerView: 3.2 },
                 }}
                 modules={[Autoplay, Pagination]}
-                className='!pb-10 !pl-5 !mt-10 !container mx-auto'
+                className='!pb-10 !pl-5 md:!pl-10 lg!:pl-14 xl:!pl-16 !mt-10 !container mx-auto'
             >
                 {services.map((service: ServiceInterface, index: number) => (
                     <SwiperSlide key={index}>
@@ -73,7 +74,7 @@ export default function SlideServices({ services }: SlideServicesProps) {
                             </p>
 
                             <button 
-                                className= 'mx-auto mt-2 px-5 py-2 rounded-xl text-lg uppercase transition-all bg-[#7c4f32] text-white border-2 border-[#7c4f32] hover:bg-white hover:text-[#7c4f32] '
+                                className= 'mx-auto mt-2 px-5 py-2 rounded-xl text-lg uppercase transition-all bg-[#663210] text-white border-2 border-[#663210] hover:bg-white hover:text-[#663210] '
                                 onClick={() => openModal(service)}
                             >
                                 Saiba mais
@@ -86,7 +87,13 @@ export default function SlideServices({ services }: SlideServicesProps) {
                     <a 
                         href="https://wa.me/5534998798280?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20consulta%20com%20a%20Dra.%20Nara%20por%20favor." 
                         target="_blank"
-                        className='w-fit mx-auto mt-10 px-5 py-2 text-lg font-semibold text-[#663210] bg-[#f0cca8] border-2 border-[#663210] rounded-2xl'
+                        className={`
+                            w-fit mx-auto mt-10 px-5 py-2 text-lg font-semibold border-2 rounded-2xl 
+                            ${light ? 
+                                "text-[#663210] hover:text-[#f0cca8] bg-[#f0cca8] hover:bg-[#663210] border-[#f0cca8] " 
+                                :"text-white hover:text-[#663210] bg-[#663210] hover:bg-[#f0cca8] border-[#663210] "
+                            } 
+                        `}
                     >
                         Agendar consulta
                     </a>

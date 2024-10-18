@@ -8,12 +8,12 @@ export default function SectionVideo() {
                     Nossos serviços
                 </h1>
 
-                <iframe
+                {/* <iframe
                     className="mt-5 mx-auto w-full lg:w-[80%] 2xl:max-w-[950px] h-[200px] md:h-[350px] lg:h-[400px] xl:h-[550px] rounded-3xl"
                     src="https://www.youtube.com/embed/XB0J3mVluWA?si=JCwsAXOa7HcIC3Zx"
                     title="YouTube video player"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                />
+                /> */}
             </div>
         </section>
     )

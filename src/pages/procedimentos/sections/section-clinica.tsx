@@ -6,9 +6,9 @@ import { procedimentos } from '../../../data/procedimentos-data';
 
 export default function SectionClinica(){
     return (
-        <section className="bg-[#663210] py-10 xl:py-14">
+        <section className="bg-[#f0cca8] py-10 xl:py-14">
             <div className='container mx-auto  px-5 md:px-0 md:pl-10 lg:pl-14 xl:pl-16 space-y-5 '>
-                <h2 className="font-rewant text-[42px] lg:text-5xl xl:text-6xl leading-10 text-start text-[#f0cca8] ">
+                <h2 className="font-rewant text-[42px] lg:text-5xl xl:text-6xl leading-10 text-start text-[#663210] ">
                     Dermatologia clínica
                 </h2>
                 <p className='text-[#f0cca8] md:pr-10 lg:pr-14 xl:pr-16'>
