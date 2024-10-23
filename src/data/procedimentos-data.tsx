@@ -31,23 +31,19 @@ export const procedimentos:ProcedimentosOftalmologicos = {
             imagem: bioestimuladores,
             resumo: `Bioestimuladores são compostos usados em tratamentos estéticos e dermatológicos para estimular a produção natural de colágeno na pele. Eles atuam melhorando a firmeza, elasticidade e qualidade da pele.`,
             descricao: `
-            <h3 className="font-semibold">O que é:</h3>
-            <p>A Acne é uma condição da pele que ocorre quando os folículos pilosos ficam obstruídos por sebo e células mortas, 
-            sendo colonizados por bactérias e gerando uma inflamação local. As principais áreas atingidas pela doença são o rosto, 
-            peito, ombros, costas e braços. A Acne tem como principais causadores a hereditariedade e os fatores hormonais, podendo 
-            se apresentar de várias formas e em graus diferentes. A alimentação também é um fator importante na doença e pode 
-            influenciar a gravidade da acne.</p>
+            <h3 className="font-semibold">O que são?</h3>
+            <p>Bioestimuladores são compostos usados em tratamentos estéticos e dermatológicos para estimular a produção 
+            natural de colágeno na pele. Eles atuam melhorando a firmeza, elasticidade e qualidade da pele.</p>
             <br />
-            <h3 className="font-semibold">Em quem ocorre:</h3>
-            <p>Geralmente, a doença surge durante a adolescência, devido à ação hormonal, que passa por mudanças consideráveis 
-            nesta faixa etária. Entretanto, a Acne pode se desenvolver também na fase adulta, principalmente nas mulheres com 
-            predisposição genética e alterações hormonais.</p>
+            <h3 className="font-semibold">Como funcionam?</h3>
+            <p>As substâncias são injetadas na derme, a segunda camada mais profunda da pele, e estimulam os 
+            fibroblastos a produzir mais colágeno e elastina.</p>
             <br />
-            <h3 className="font-semibold">Tratamento:</h3>
-            <p>Para indicar o melhor tratamento, o diagnóstico correto do tipo de acne é fundamental. Entre as opções terapêuticas 
-            disponíveis estão o uso de produtos tópicos para a diminuição da oleosidade da pele. O uso de antibióticos orais, 
-            probióticos e a isotretinoína podem ser usados, quando há indicação.É muito importante que o tratamento seja feito 
-            precocemente para evitar cicatrizes.</p>
+            <h3 className="font-semibold">Onde podem ser aplicados?</h3>
+            <p>Rosto, pescoço, mãos, abdômen, nádegas, coxas, braços e tórax.</p>
+            <br />
+            <h3 className="font-semibold">Duração do efeito:</h3>
+            <p>Depende do produto, mas geralmente é de no mínimo 18 meses.</p>
             `,
         },
 
@@ -56,14 +52,17 @@ export const procedimentos:ProcedimentosOftalmologicos = {
             imagem: mmpCapilar,
             resumo: `É um tratamento capilar que consiste na injeção de medicamentos ativos diretamente no couro cabeludo, com o objetivo de estimular o crescimento de novos fios e engrossar os existentes.`,
             descricao: `
-            <h3 className="font-semibold">O que é:</h3>
-            <p>O Câncer de Pele ocorre quando há a transformação e o aumento descontrolado das células cutâneas, principalmente devido à exposição excessiva aos raios ultravioletas do sol. Entre os diferentes tipos de câncer de pele, temos os carcinomas e os melanomas, sendo este último mais raro, mas que tende a se espalhar rapidamente pelo corpo.</p>
+            <h3 className="font-semibold">O que é?</h3>
+            <p>É um tratamento capilar que consiste na injeção de medicamentos ativos diretamente no couro cabeludo, com o objetivo de estimular o crescimento de novos fios e engrossar os existentes.</p>
             <br />
-            <h3 className="font-semibold">Em quem ocorre:</h3>
-            <p>O câncer de pele pode surgir em qualquer pessoa, porém, indivíduos com pele, cabelos e olhos claros, ou com histórico familiar da doença, são mais suscetíveis. Pacientes que ficaram expostos ao sol por muito tempo durante a vida também apresentam maior risco.</p>
+            <h3 className="font-semibold">Como funciona?</h3>
+            <p>Microagulhas são mergulhadas em uma solução de medicamentos, vitaminas e bloqueadores enzimáticos. Elas penetram, então, o couro cabeludo, criando pequenos canais que aumentam a circulação sanguínea e estimulam a liberação de fatores de crescimento.</p>
             <br />
-            <h3 className="font-semibold">Tratamento:</h3>
-            <p>O tratamento geralmente envolve a retirada da lesão e do tecido ao redor por meio de cirurgia dermatológica. Em casos específicos, tratamentos complementares com radioterapia ou quimioterapia podem ser indicados. O diagnóstico precoce é fundamental para escolher a melhor abordagem terapêutica.</p>
+            <h3 className="font-semibold">Onde pode ser aplicado?</h3>
+            <p>O MMP capilar é aplicado diretamente no couro cabeludo.</p>
+            <br />
+            <h3 className="font-semibold">Duração do efeito:</h3>
+            <p>Pode durar de seis meses a um ano, dependendo da manutenção e das características de cada paciente.</p>
             `,
         },
 
@@ -73,29 +72,36 @@ export const procedimentos:ProcedimentosOftalmologicos = {
             resumo: `Consiste na aplicação de substâncias químicas ou técnicas físicas para remover camadas superficiais da pele. Estimula a renovação celular, melhorando a textura, reduzindo manchas, cicatrizes de acne e linhas finas.`,
             descricao: `
             <h3 className="font-semibold">O que é:</h3>
-            <p>A Dermatite Atópica é uma doença inflamatória crônica, cuja característica principal é a pele seca, formando lesões avermelhadas que coçam, descamam e podem causar ferimentos. As causas são genéticas, associadas a alterações no sistema imunológico e fatores ambientais.</p>
+            <p>É um tratamento estético que consiste na aplicação de substâncias químicas ou técnicas físicas para remover camadas superficiais da pele. Estimula a renovação celular, melhorando a textura, reduzindo manchas, cicatrizes de acne e linhas finas.</p>
             <br />
-            <h3 className="font-semibold">Em quem ocorre:</h3>
-            <p>A doença é mais comum em crianças e adultos com histórico de problemas alérgicos, como bronquite e rinite.</p>
+            <h3 className="font-semibold">Como funciona?</h3>
+            <p>O peeling facial funciona através da aplicação de substâncias químicas ou métodos físicos que esfoliam a pele, removendo células mortas e camadas superficiais ou mais profundas, dependendo do tipo de peeling.</p>
             <br />
-            <h3 className="font-semibold">Tratamento:</h3>
-            <p>O controle da doença é feito com medicamentos anti-inflamatórios e anti-histamínicos, podendo ser tópico ou via oral. Em casos graves, imunossupressores podem ser indicados. Evitar fatores irritantes é essencial, além de cuidados especiais com a higiene pessoal.</p>
+            <h3 className="font-semibold">Onde pode ser aplicado?</h3>
+            <p>Na pele do rosto.</p>
+            <br />
+            <h3 className="font-semibold">Duração do efeito:</h3>
+            <p>Varia de acordo com o tipo de peeling realizado e o cuidado com a pele após o procedimento. Superficial: algumas semanas a alguns meses; médio: de 6 meses a 1 ano; profundo: vários anos.</p>
             `,
         },
         
         {
-            nome: "Toxina",
+            nome: "Toxina Botulínica",
             imagem: toxina,
             resumo: "É injetada em pequenas quantidades em músculos específicos para paralisá-los temporariamente, o que pode ajudar a reduzir ou eliminar rugas e linhas de expressão. Também pode ser usada para reposicionar as sobrancelhas.",
             descricao: 
             `<h3 className="font-semibold">O que é:</h3>
-            <p>A dermatite de contato é uma reação inflamatória na pele decorrente da exposição a um agente que causa irritação ou alergia. Existem dois tipos: dermatite de contato irritativa, causada por substâncias com pH diferente da pele, e dermatite de contato alérgica, que surge após repetidas exposições a um produto ou substância.</p>
+            <p>É injetada em pequenas quantidades em músculos específicos para paralisá-los temporariamente, o que pode ajudar a reduzir ou eliminar rugas e linhas de expressão. Também pode ser usada para reposicionar as sobrancelhas.</p>
             <br />
-            <h3 className="font-semibold">Em quem ocorre:</h3>
-            <p>A dermatite de contato pode ocorrer em qualquer pessoa.</p>
+            <h3 className="font-semibold">Como funciona?</h3>
+            <p>Age bloqueando a liberação de acetilcolina, um neurotransmissor responsável pela contração muscular. Isso faz com que os músculos fiquem temporariamente relaxados, reduzindo rugas e linhas de expressão.</p>
             <br />
-            <h3 className="font-semibold">Tratamento:</h3>
-            <p>O tratamento envolve evitar o contato com o agente causador. O uso de cremes à base de corticosteróides e, em casos específicos, medicamentos orais podem ser indicados pelo dermatologista para reduzir os sintomas alérgicos.</p>` 
+            <h3 className="font-semibold">Onde pode ser aplicado?</h3>
+            <p>Pode ser aplicada na testa, entre as sobrancelhas, nos cantos dos olhos, no queixo, no pescoço e no decote.</p>
+            <br />
+            <h3 className="font-semibold">Duração do efeito:</h3>
+            <p>Os efeitos são temporários, geralmente durando de 3 a 6 meses, dependendo da aplicação.</p>
+            `
         },
 
         {
@@ -104,13 +110,16 @@ export const procedimentos:ProcedimentosOftalmologicos = {
             resumo: `Ultraformer é um tratamento estético não invasivo que utiliza tecnologia de ultrassom micro e macrofocado para promover o rejuvenescimento e a firmeza da pele. O procedimento é conhecido como "lifting sem cortes".`,
             descricao: `
             <h3 className="font-semibold">O que é:</h3>
-            <p>A Dermatite Seborreica é uma condição crônica e não contagiosa, caracterizada por descamação e vermelhidão em áreas como o couro cabeludo, rosto e tronco. A causa exata é desconhecida, mas fatores como hereditariedade, estresse e excesso de oleosidade podem desencadear o problema.</p>
+            <p>Ultraformer é um tratamento estético não invasivo que utiliza tecnologia de ultrassom micro e macrofocado para promover o rejuvenescimento e a firmeza da pele. O procedimento é conhecido como "lifting sem cortes</p>
             <br />
-            <h3 className="font-semibold">Em quem ocorre:</h3>
-            <p>A condição pode acometer tanto bebês quanto adultos, sendo mais comum no couro cabeludo, rosto e parte superior do tronco em adultos, e no couro cabeludo em bebês.</p>
+            <h3 className="font-semibold">Como funciona?</h3>
+            <p>Emite ondas de ultrassom que penetram em diferentes camadas da pele, estimulando a produção de colágeno e elastina, o que ajuda a melhorar a elasticidade e a reduzir a flacidez.</p>
             <br />
-            <h3 className="font-semibold">Tratamento:</h3>
-            <p>O tratamento inclui a lavagem frequente do couro cabeludo, uso de xampus especiais e cremes/pomadas indicados pelo dermatologista. Evitar produtos capilares como sprays e géis também ajuda a controlar os sintomas.</p>
+            <h3 className="font-semibold">Onde pode ser aplicado?</h3>
+            <p>Pode ser usado em diversas áreas do corpo, como face, papada, pescoço, braços, coxas e abdômen.</p>
+            <br />
+            <h3 className="font-semibold">Duração do efeito:</h3>
+            <p>A duração dos efeitos do Ultraformer pode variar de acordo com o tipo de pele, idade, e cuidados pós-tratamento, mas, em geral, os resultados podem durar até 12 meses.</p>
             `,
         },
     ],
