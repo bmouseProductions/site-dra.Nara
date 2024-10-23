@@ -57,7 +57,7 @@ export default function Header() {
           rel="noopener noreferrer"
           className="w-fit px-5 pt-1 pb-1.5 rounded-2xl text-lg md:text-xl uppercase transition-all border-2 border-[#663210] text-white bg-[#663210]  hover:bg-transparent hover:text-[#663210]"
         >
-          Contato
+          Fale conosco
         </a>
       </nav>
     );
@@ -80,7 +80,7 @@ export default function Header() {
       <div className="flex items-center justify-between md:justify-center text-blue-gray-900">
 
         <NavLink to="/" className=" cursor-pointer">
-          <img src={logo} alt="logo" className="w-[250px] md:w-[150px] lg:hidden " />
+          <img src={logo} alt="logo" className="w-[250px] md:w-[150px] md:hidden " />
         </NavLink>
 
         <div className="hidden md:block">
