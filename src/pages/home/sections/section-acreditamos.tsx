@@ -49,6 +49,8 @@ export default function SectionAcreditamos() {
 
         <img
           src={nara}
+          width={10}
+          height={10}
           alt="Foto da Doutora Nara em pé"
           className="lg:w-1/2 shadow-xl "
         />

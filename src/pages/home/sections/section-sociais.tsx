@@ -161,6 +161,8 @@ export default function SectionSociais() {
 
         <img
           src={nara}
+          width={10}
+          height={10}
           alt="Foto da Doutora Nara em pé"
           className="mx-auto lg:w-1/2 shadow-xl "
         />

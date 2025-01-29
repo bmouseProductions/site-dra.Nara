@@ -41,6 +41,8 @@ export default function SectionSentirPele() {
 
         <img
           src={nara}
+          width={10}
+          height={10}
           alt="Foto da Doutora Nara em pé"
           className="w-full lg:w-1/2 my-10"
         />
