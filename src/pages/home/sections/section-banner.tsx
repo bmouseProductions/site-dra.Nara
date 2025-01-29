@@ -49,7 +49,7 @@ export default function SectionBanner() {
           <img
             src={bannerMobile}
             alt="Imagem com uma mulher negra passando creme na pele"
-            className="w-11/12 mx-auto"
+            className="w-full mx-auto"
           />
         </div>
       )}

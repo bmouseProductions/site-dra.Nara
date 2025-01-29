@@ -42,7 +42,7 @@ export default function SectionSentirPele() {
         <img
           src={nara}
           alt="Foto da Doutora Nara em pé"
-          className="lg:w-1/2 my-10"
+          className="w-full lg:w-1/2 my-10"
         />
       </div>
     </section>
