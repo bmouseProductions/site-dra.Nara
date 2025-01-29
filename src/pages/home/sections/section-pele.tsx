@@ -1,19 +1,6 @@
-import { useEffect } from "react";
-import { useLocation } from "react-router-dom";
-
 import nara from "../../../assets/images/sentiPele.webp";
 
 export default function SectionSentirPele() {
-  const { hash } = useLocation();
-
-  useEffect(() => {
-    if (hash) {
-      const element = document.getElementById(hash.replace("/#", "sobre"));
-      if (element) {
-        element.scrollIntoView({ behavior: "smooth" });
-      }
-    }
-  }, [hash]);
   return (
     <section className="background-sentir-pele" id="sobre">
       <div className="container m-auto px-5 md:px-10 xl:px-14 py-10 xl:py-14 text-[#f0cca8] flex flex-col lg:flex-row items-center lg:gap-10">
