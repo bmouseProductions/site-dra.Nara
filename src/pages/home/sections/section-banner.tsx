@@ -15,7 +15,7 @@ export default function SectionBanner() {
           <img
             src={bannerDesktop}
             alt="Imagem com uma mulher negra passando creme na pele"
-            className="w-auto max-w-full h-4/5 absolute bottom-0"
+            className="w-auto lg:max-w-full lg:h-4/5 lg:absolute lg:bottom-0"
           />
         </div>
       </div>
