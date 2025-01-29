@@ -52,7 +52,7 @@ export default function SectionAcreditamos() {
           width={10}
           height={10}
           alt="Foto da Doutora Nara em pé"
-          className="lg:w-1/2 shadow-xl "
+          className="w-full lg:w-1/2 shadow-xl "
         />
       </div>
     </section>
