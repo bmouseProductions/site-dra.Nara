@@ -38,10 +38,11 @@ export default function SectionBanner() {
 
             <img
               src={bannerDesktop}
-              width={10}
-              height={10}
+              width={1920} // Defina as dimensões reais da imagem
+              height={1080}
               alt="Imagem com uma mulher negra passando creme na pele"
               className="w-auto max-w-full h-4/5 absolute bottom-0 "
+              loading="eager"
             />
           </div>
         </div>
