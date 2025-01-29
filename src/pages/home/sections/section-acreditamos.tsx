@@ -50,7 +50,7 @@ export default function SectionAcreditamos() {
         <img
           src={nara}
           alt="Foto da Doutora Nara em pé"
-          className="lg:w-1/2 shadow-xl "
+          className="w-1/2 lg:w-1/2 shadow-xl "
         />
       </div>
     </section>
