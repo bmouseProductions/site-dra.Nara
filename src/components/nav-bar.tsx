@@ -27,14 +27,6 @@ export default function Header() {
           Home
         </NavLink>
 
-        <a
-          href="/#sobre"
-          onClick={closeMenuIfOpen}
-          className={`text-xl md:text-xl text-gray-500 font-montserrat cursor-pointer hover:underline decoration-[#663210] underline-offset-8 transition-all`}
-        >
-          Sobre
-        </a>
-
         <NavLink
           to="/procedimentos"
           onClick={closeMenuIfOpen}
