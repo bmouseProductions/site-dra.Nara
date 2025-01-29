@@ -42,7 +42,6 @@ export default function SectionBanner() {
               height={1080}
               alt="Imagem com uma mulher negra passando creme na pele"
               className="w-auto max-w-full h-4/5 absolute bottom-0 "
-              loading="eager"
             />
           </div>
         </div>
@@ -55,6 +54,7 @@ export default function SectionBanner() {
             height={720}
             alt="Imagem com uma mulher negra passando creme na pele"
             className="w-full mx-auto"
+            loading="eager"
           />
         </div>
       )}
