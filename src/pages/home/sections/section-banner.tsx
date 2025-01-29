@@ -50,8 +50,8 @@ export default function SectionBanner() {
         <div className="relative pt-10 flex flex-col justify-end bg-[#f0cca8] ">
           <img
             src={bannerMobile}
-            width={10}
-            height={10}
+            width={1920} // Defina as dimensões reais da imagem
+            height={1080}
             alt="Imagem com uma mulher negra passando creme na pele"
             className="w-full mx-auto"
           />
