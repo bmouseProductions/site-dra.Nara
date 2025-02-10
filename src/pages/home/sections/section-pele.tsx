@@ -5,7 +5,7 @@ export default function SectionSentirPele() {
     <section className="background-sentir-pele" id="sobre">
       <div className="container m-auto px-5 md:px-10 xl:px-14 py-10 xl:py-14 text-[#f0cca8] flex flex-col lg:flex-row items-center lg:gap-10">
         <div className="flex flex-col gap-5">
-          <h1 className="font-rewant text-7xl text-center lg:text-start">
+          <h1 className="font-rewant text-5xl text-center lg:text-start">
             Saúde <br className="hidden lg:block" /> para sentir{" "}
             <br className="hidden lg:block" /> na pele.
           </h1>
@@ -28,6 +28,7 @@ export default function SectionSentirPele() {
 
         <img
           src={nara}
+          fetchPriority="high"
           width={10}
           height={10}
           alt="Foto da Doutora Nara em pé"

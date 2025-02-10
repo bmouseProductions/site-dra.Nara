@@ -1,11 +1,11 @@
+import { lazy, Suspense } from 'react';
 import RoutesAplication from './routes';
-
-import BackToTop from './components/back-to-top';
-import Footer from './components/footer';
-
-import './global.css'
 import Header from './components/nav-bar';
-import Whatsapp from './components/whatsapp';
+import Footer from './components/footer';
+import './global.css'
+
+const BackToTop = lazy(() => import('./components/back-to-top'));
+const Whatsapp = lazy(() => import('./components/whatsapp'));
 
 export default function App() {
     return (
@@ -16,10 +16,12 @@ export default function App() {
             
             <main>
                 <RoutesAplication />
-                <BackToTop/>
-                <Whatsapp />
+                <Suspense fallback={null}>
+                    <BackToTop/>
+                    <Whatsapp />
+                </Suspense>
             </main>
             <Footer />
         </>
-    )
+    );
 }
