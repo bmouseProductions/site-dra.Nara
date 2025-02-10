@@ -49,6 +49,9 @@ export default function SectionBanner() {
   height={7} 
   alt="Mulher passando creme"
   className="w-full"
+  loading="eager" 
+  decoding="async"
+  fetchPriority="high"
 />
 
     </div>
