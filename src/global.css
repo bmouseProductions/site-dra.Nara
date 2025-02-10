@@ -40,7 +40,7 @@ html, body {
 
 .background-sentir-pele{
     background-color: #663210;
-    background-image: url(./assets//images/N-background.svg);
+    background-image: url(./assets/images/N-background.svg);
     background-size: 100%;
     background-position: left bottom;
     background-repeat: no-repeat;
@@ -49,7 +49,7 @@ html, body {
 @media screen and (min-width:768px) {
     .background-sentir-pele{
         background-color: #663210;
-        background-image: url(./assets//images/N-background.svg);
+        background-image: url(./assets/images/N-background.svg);
         background-size: 80%;
         background-position: right bottom;
         background-repeat: no-repeat;
@@ -59,7 +59,7 @@ html, body {
 @media screen and (min-width:1024px) {
     .background-sentir-pele{
         background-color: #663210;
-        background-image: url(./assets//images/N-background.svg);
+        background-image: url(./assets/images/N-background.svg);
         background-size: 50%;
         background-position: right bottom;
         background-repeat: no-repeat;
@@ -68,7 +68,7 @@ html, body {
 
 .background-video{
     background-color: #663210;
-    background-image: url(./assets//images/background-naraVieira.svg);
+    background-image: url(./assets/images/background-naraVieira.svg);
     background-size: 150%;
     background-position: left bottom;
     background-repeat: no-repeat;
