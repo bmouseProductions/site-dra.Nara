@@ -2,7 +2,7 @@ import nara from "../../../assets/images/sentiPele.webp";
 
 export default function SectionSentirPele() {
   return (
-    <section className="background-sentir-pele" id="sobre">
+    <section className="bbg-[#663210] bg-[url('./assets/images/N-background.svg')] bg-[length:100%] bg-left-bottom bg-no-repeat md:bg-[length:80%] md:bg-right-bottom lg:bg-[length:50%] lg:bg-right-bottom" id="sobre">
       <div className="container m-auto px-5 md:px-10 xl:px-14 py-10 xl:py-14 text-[#f0cca8] flex flex-col lg:flex-row items-center lg:gap-10">
         <div className="flex flex-col gap-5">
           <h1 className="font-rewant text-5xl text-center lg:text-start">

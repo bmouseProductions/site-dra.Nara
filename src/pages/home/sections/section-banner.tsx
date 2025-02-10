@@ -47,7 +47,7 @@ export default function SectionBanner() {
   src={bannerMobile}
   width={1}
   height={7} 
-  alt="Imagem com uma mulher negra passando creme na pele"
+  alt="Mulher passando creme"
   className="w-full"
   loading="eager" 
   decoding="async"
